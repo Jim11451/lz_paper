@@ -4,13 +4,13 @@
 
 ## Abstract
 
-We ask which parameters of an exothermic pseudo-Dirac dark matter model can account for a reference xenon recoil yield and be tested by the CMS monojet search. The vector mediator couples more strongly to heavier quarks, so xenon recoils and collider production probe different quark flavors. We match the truth-level yield of a benchmark motivated by the high-energy LZ recoil candidate and solve for the Planck relic abundance on the on-shell and off-shell branches. For small photon mixing and a narrow mediator, we recast the 66 public CMS Run 2 monojet bins and exclude a subset of the on-shell solutions at 95% CL. Three benchmarks with large top couplings give observed limits $\mu_{95}=0.607$, $0.340$, and $0.273$. All three limits stay below unity when the target yield varies by $25\%$ in either direction. Two of the three benchmarks lie at the upper coupling boundary of the scan. We assess the effects of low-energy mixing, the local excited-state fraction, the relic-density measurement, and finite signal samples. We also examine top-associated production at lower mediator masses.
+We ask which parameters of an exothermic pseudo-Dirac dark matter model can account for a reference xenon recoil yield and be tested by the CMS monojet search. The vector mediator couples more strongly to heavier quarks, so xenon recoils and collider production probe different quark flavors. We normalize the couplings to the truth-level yield predicted by a reference model in the LZ recoil window and solve for the on-shell and off-shell branches that reproduce the Planck abundance. For small photon mixing, we use the 66 public missing-transverse-momentum (MET) bins of the CMS Run 2 monojet analysis to set 95% CL signal-strength limits on solutions that meet the on-shell narrow-width criteria. The data exclude a subset of these solutions. Three benchmarks with large top couplings give observed limits $\mu_{95}=0.607$, $0.340$, and $0.273$. All three limits stay below unity when the target yield varies by $25\%$ in either direction. Two of the three benchmarks lie at the upper coupling boundary of the scan. We assess the effects of low-energy mixing, the local excited-state fraction, the relic-density measurement, and finite signal samples. We also examine top-associated production at lower mediator masses.
 
 ## 1. Introduction
 
 In an extended recoil window with an exposure of $2.84$ tonne yr, the LUX-ZEPLIN (LZ) Collaboration reported a candidate consistent with a nuclear recoil energy of $E_R=248\pm23_{\rm stat}\pm23_{\rm syst}$ keV. Across the models tested by LZ, the excess over the background-only hypothesis had a global significance of $2.6\sigma$ and a maximum local significance of $3.4\sigma$. In exothermic scattering, the heavier dark state releases energy as it transitions to the lighter state. Dark matter with a mass of tens of GeV can therefore produce energetic nuclear recoils. Gemmell, Hooper, and Krnjaic studied this mechanism and the Galactic Center gamma-ray excess using a flavor-universal quark vector current. We use their exothermic benchmark to set a reference yield for our study of xenon recoils, thermal freeze-out, and LHC signatures. [1](https://arxiv.org/html/2609.02823) · [2](https://arxiv.org/html/2609.26570v1)
 
-The quark couplings determine how the mediator is produced, and the invisible decay threshold determines whether it can produce a dark pair on shell. Du, Huang, and Xie studied endothermic scattering in a gauge-complete leptophobic $U(1)_B$ model. At their $1.44$ TeV benchmark, the two-body invisible decay is kinematically closed and dijet searches provide the main collider test. Earlier work also examined loop-induced and top-associated production of top-philic vector mediators. Here we ask whether missing-momentum searches can probe mediators with masses from tens to about two hundred GeV once we impose the exothermic recoil yield and the thermal abundance. We evaluate the relic and collider conditions at the same four-dimensional parameter points and track off-shell solutions in the two-dimensional projection. [3](https://arxiv.org/html/2609.07225) · [4](https://arxiv.org/abs/1512.00471)
+The quark couplings determine how the mediator is produced, and the invisible decay threshold determines whether it can produce a dark pair on shell. Du, Huang, and Xie studied endothermic scattering in a gauge-complete leptophobic $U(1)_B$ model. At their $1.44$ TeV benchmark, the two-body invisible decay is kinematically closed and dijet searches provide the main collider test. Earlier work also examined loop-induced and top-associated production of top-philic vector mediators. Here we ask whether missing-momentum searches can probe mediators with masses from tens to about two hundred GeV once we impose the exothermic recoil yield and the thermal abundance. At each $(M_V,g_t)$, we solve for $(m_\chi,g_\chi)$ that reproduce the reference recoil yield and thermal abundance. We then apply the monojet search to solutions that meet the on-shell narrow-width criteria. Off-shell solutions can also occur at lower mediator masses. [3](https://arxiv.org/html/2609.07225) · [4](https://arxiv.org/abs/1512.00471)
 
 ## 2. Effective model
 
@@ -23,9 +23,11 @@ $$
 \tag{1}
 $$
 
-At zero mixing, $g_t$ is the coefficient of the $Vt\bar t$ vertex, and the dark transition coupling has magnitude $g_\chi/2$. We take $g_{Vq}\propto\widehat m_q$ as a phenomenological flavor ansatz in the electroweak broken phase. The reference masses $\widehat m_q$ fix the ratios of quark couplings. A complete $U(1)_X$ theory would also specify the charges, the mechanism of fermion mass generation, and the matching conditions. For purely vector couplings, different coefficients for the up- and down-type members of a left-handed weak doublet require electroweak-breaking operators or additional mixing. [5](https://arxiv.org/abs/1510.02110) · [6](https://arxiv.org/abs/1605.04917)
+At zero mixing, $g_t$ is the coefficient of the $Vt\bar t$ vertex, and the dark transition coupling has magnitude $g_\chi/2$. We adopt $g_{Vq}\propto\widehat m_q$ in an effective model for the electroweak broken phase. The reference masses $\widehat m_q$ fix the ratios of quark couplings. A complete $U(1)_X$ theory would also specify the charges, the mechanism of fermion mass generation, and the matching conditions. For purely vector couplings, different coefficients for the up- and down-type members of a left-handed weak doublet require electroweak-breaking operators or additional mixing. [5](https://arxiv.org/abs/1510.02110) · [6](https://arxiv.org/abs/1605.04917)
 
-Once the low-energy matching coefficients are specified, Eq. (1) gives the recoil kinematics and the leading coherent rate. With these vertices, the closed-quark-loop amplitude for $gg\to gV$ satisfies the QCD Ward identity. The relic-density and monojet predictions depend on the operators, particles, and kinematically open channels of the effective model. Additional $V$–$Z$ mixing, matching operators, or new particles could change the recoil amplitude, annihilation rates, mediator width, or production rates. Charged-current processes also depend on electroweak cancellations in the longitudinal amplitudes, as the single-top study in Section 7 illustrates. [5](https://arxiv.org/abs/1510.02110) · [6](https://arxiv.org/abs/1605.04917)
+For xenon recoils, we first match the quark couplings in Eq. (1) to effective proton and neutron couplings. Section 3 gives the tree-level matching. Photon mixing also requires a zero-momentum input $d_\gamma(0)$. We set $d_\gamma(0)=0$ in the main scan (Section 6.2).
+
+For collider production, the closed-quark-loop amplitude for $gg\to gV$ passes the numerical QCD Ward test described in Appendix B. The relic-density and monojet predictions depend on the operators, particles, and kinematically open channels of the effective model. Additional $V$–$Z$ mixing, matching operators, or new particles could change the recoil amplitude, annihilation rates, mediator width, or production rates. Charged-current processes also depend on electroweak cancellations in the longitudinal amplitudes, as the single-top study in Section 7 illustrates. [5](https://arxiv.org/abs/1510.02110) · [6](https://arxiv.org/abs/1605.04917)
 
 | Quantity | Benchmark or range |
 |---|---|
@@ -40,11 +42,13 @@ We set the upper scan boundary at $g_t=\sqrt{4\pi}$, where $g_t^2/(4\pi)=1$. An 
 
 ## 3. Xenon recoils and the LZ yield condition
 
-At leading order in the vector-charge matching, $f_p=2g_{Vu}+g_{Vd}$ and $f_n=g_{Vu}+2g_{Vd}$, giving $f_p/g_t=5.29\times10^{-5}$ and $f_n/g_t=6.74\times10^{-5}$. The coherent charge of a nucleus of mass number $A$ is $Q_A=Zf_p+(A-Z)f_n$. With nuclear mass $m_A$ and reduced mass $\mu_A=m_2m_A/(m_2+m_A)$, the minimum incident speed and the differential truth-level rate are
+At zero momentum transfer, the vector current measures the net number of quarks of each flavor in a nucleon. A proton contains two net up quarks and one net down quark, and a neutron contains one net up quark and two net down quarks. The tree-level couplings are therefore $f_p=2g_{Vu}+g_{Vd}$ and $f_n=g_{Vu}+2g_{Vd}$. Equation (1) gives $f_p/g_t=5.29\times10^{-5}$ and $f_n/g_t=6.74\times10^{-5}$. For a nucleus with $Z$ protons and $A-Z$ neutrons, the nucleon amplitudes add coherently to give the effective vector charge $Q_A=Zf_p+(A-Z)f_n$.
+
+Let $m_A$ be the nuclear mass and $\mu_A=m_2m_A/(m_2+m_A)$ the reduced mass of the incident dark state and the nucleus. Energy and momentum conservation give the minimum incident speed $v_{\min}$ required for a recoil of energy $E_R$. This speed and the differential truth-level recoil rate are
 
 $$
 \begin{aligned}
-v_{\min}(E_R)&=\frac{|m_A E_R/\mu_A-\Delta m|}{\sqrt{2m_A E_R}},\
+v_{\min}(E_R)&=\frac{|m_A E_R/\mu_A-\Delta m|}{\sqrt{2m_A E_R}},\\
 \frac{dR}{dE_R}&=\frac{f_2\rho_\chi}{m_2}\sum_A w_A\,
 \frac{(g_\chi Q_A/2)^2 F_A^2(q)}{2\pi(M_V^2+q^2)^2}\,\eta(v_{\min}),
 \qquad q^2=2m_AE_R .
@@ -54,13 +58,21 @@ $$
 
 Here $w_A$ is the mass fraction of each isotope in natural xenon, and we compute $F_A$ from a two-parameter Fermi density. The velocity integral is $\eta(v_{\min})=\int_{v>v_{\min}}d^3v\,f_{\rm lab}(\mathbf v)/v$. We approximate the dark masses as degenerate in the flux and reduced mass and retain the splitting in $v_{\min}$. The recoil energy at zero incident speed is $E_R^\star=\Delta m\,\mu_A/m_A$. The location of the spectral peak also depends on the velocity distribution and nuclear form factors. [2](https://arxiv.org/html/2609.26570v1) · [6](https://arxiv.org/abs/1605.04917)
 
-We recalculate the yield at the benchmark in Fig. 6 of Ref. [2], $(m_\chi,M_V,g_B,g_\chi)=(35\,\mathrm{GeV},30\,\mathrm{GeV},1.46\times10^{-5},0.32)$, with $g_{Vq}=g_B/6$. We obtain $N_0=1.12044$ expected truth-level events in the signal window $[5.4,269.9]$ keV and $7.39\times10^{-4}$ in the sideband $[350,675]$ keV. After folding in the detector response, the reference paper reports about 1 and $8\times10^{-4}$ events, respectively. We set the normalization of the mass-weighted model by requiring the same truth-level yield $N_0$ in the signal window. The full LZ analysis uses corrected S1 and S2 signals from 1710 events in its science sample. [1](https://arxiv.org/html/2609.02823) · [2](https://arxiv.org/html/2609.26570v1) · [7](https://doi.org/10.17182/hepdata.182472.v1)
+We recalculate the yield at the benchmark in Fig. 6 of Ref. [2], $(m_\chi,M_V,g_B,g_\chi)=(35\,\mathrm{GeV},30\,\mathrm{GeV},1.46\times10^{-5},0.32)$, with $g_{Vq}=g_B/6$. We obtain $N_0=1.12044$ expected truth-level events in the signal window $[5.4,269.9]$ keV and $7.39\times10^{-4}$ in the sideband $[350,675]$ keV. Including the detector response, the reference paper reports about 1 and $8\times10^{-4}$ events, respectively. We adjust the couplings of the mass-weighted model to predict the same yield $N_0$ in the same truth-level signal window. The LZ event-level analysis uses corrected S1 and S2 signals from 1710 events in its science sample. [1](https://arxiv.org/html/2609.02823) · [2](https://arxiv.org/html/2609.26570v1) · [7](https://doi.org/10.17182/hepdata.182472.v1)
 
 ![Figure 1. Nuclear recoil spectra in natural xenon](figures/01_xenon_recoil.png)
 
 **Figure 1.** Truth-level differential recoil rates in events kg$^{-1}$ day$^{-1}$ keV$^{-1}$. Both models use $m_\chi=35$ GeV and $M_V=30$ GeV. For the mass-weighted model, $g_t=0.12763$ and $g_\chi=0.29779$ reproduce the reference yield. The vertical line marks the reconstructed recoil energy of the LZ candidate, and shading marks the integration windows.
 
-In the contact limit $q\ll M_V$, the rate depends on the coupling combination $\kappa=g_tg_\chi/M_V^2$. We denote the tree-level solution that matches the reference yield at the baseline halo and $f_2=0.5$ by $\kappa_0(m_\chi)$. We define $r=N_{\rm ROI}^{\rm truth}/N_0$ and let $K_\gamma$ be the ratio of the rate with photon mixing to the tree-level rate at fixed parameters. The couplings then follow from
+Equation (2) determines the normalization of the recoil spectrum. In the contact limit $q\ll M_V$, the squared propagator gives $1/M_V^4$, and the tree-level nuclear coupling $Q_A$ is proportional to $g_t$. At fixed $m_\chi$, mass splitting, and halo model, the integrated yield therefore scales as $f_2\kappa^2$, where $\kappa=g_tg_\chi/M_V^2$ and $f_2$ is the present-day local fraction of dark matter in the heavier state.
+
+For each $m_\chi$, let $\kappa_0(m_\chi)$ be the coupling combination that gives $N_0=1.12044$ truth-level events at tree level with $f_2=0.5$. The target yield in units of $N_0$ is $r=N_{\rm ROI}^{\rm truth}/N_0$. We define $K_\gamma(m_\chi,d_\gamma)$ as the ratio of the integrated yield with photon mixing to the tree-level yield in the same window, with $m_\chi$, $\kappa$, and $f_2$ held fixed.
+
+$$
+\frac{N_{\rm ROI}^{\rm truth}}{N_0}=\frac{f_2}{0.5}\left[\frac{\kappa}{\kappa_0(m_\chi)}\right]^2K_\gamma(m_\chi,d_\gamma).
+$$
+
+Setting the yield ratio to the chosen $r$ and solving for $\kappa$ gives
 
 $$
 \kappa=\kappa_0(m_\chi)\sqrt{\frac{r}{K_\gamma(m_\chi,d_\gamma)}\frac{0.5}{f_2}},\qquad
@@ -68,7 +80,7 @@ g_\chi=\frac{M_V^2}{g_t}\kappa.
 \tag{3}
 $$
 
-Integrating the spectrum separately at each mass gives $\kappa_0(35,40,44\,\mathrm{GeV})=(4.223,5.665,7.202)\times10^{-5}\ \mathrm{GeV}^{-2}$. As the dark matter mass increases, the characteristic recoil energy approaches the upper edge of the window, and a larger coupling product is needed to reproduce the reference yield. At fixed spectral shape, the normalization scales with $r/f_2$. We set $r=1$ for the reference yield and vary it over the prescribed range $r\in[0.75,1.25]$ to test the effect of the normalization. This range carries no LZ confidence level. The 95% CL limits come from the CMS monojet likelihood in Section 5.
+Integrating the spectrum separately at each mass gives $\kappa_0(35,40,44\,\mathrm{GeV})=(4.223,5.665,7.202)\times10^{-5}\ \mathrm{GeV}^{-2}$. As the dark matter mass increases, the characteristic recoil energy approaches the upper edge of the window, and a larger coupling product is needed to reproduce the reference yield. At fixed spectral shape, the normalization scales with $r/f_2$. We set $r=1$ for the reference yield and vary it over the prescribed range $r\in[0.75,1.25]$ to test the effect of the normalization. This range carries no LZ confidence level. We obtain the 95% CL limits by fitting the CMS monojet likelihood in Section 5.
 
 ## 4. Thermal abundance and physical branches
 
@@ -80,7 +92,17 @@ $$
 \tag{4}
 $$
 
-The two states have nearly equal equilibrium weights near freeze-out because $\Delta m\ll T_f$. We calculate their combined abundance with CalcHEP and micrOMEGAs 7.1.4, using `Fast=0` and `Beps=1e-9`, and require them to account for the full Planck abundance $\Omega_ch^2=0.1200\pm0.0012$. Near resonance, coannihilation through $\chi_1\chi_2\to V^*\to b\bar b,c\bar c$ makes the relic abundance sensitive to $M_V$. For example, $b\bar b$ accounts for about $92\%$ of the coannihilation rate at one on-shell benchmark with $m_\chi=35$ GeV. Annihilation of two particles in the same dark state to $VV$ can set the abundance when that channel opens. [8](https://doi.org/10.1103/PhysRevD.43.3191) · [9](https://doi.org/10.1016/0550-3213%2891%2990438-4) · [10](https://arxiv.org/abs/2312.14894) · [11](https://arxiv.org/abs/1807.06209)
+The two dark states have the same spin degeneracy. In the nonrelativistic limit their equilibrium number densities satisfy
+
+$$
+\frac{n_2^{\rm eq}}{n_1^{\rm eq}}\simeq\left(\frac{m_2}{m_1}\right)^{3/2}e^{-\Delta m/T}.
+$$
+
+The freeze-out temperature $T_f$ is much larger than the splitting $\Delta m$, so the Boltzmann factor $e^{-\Delta m/T_f}$ is close to unity. Each state therefore contributes about half of the equilibrium number density at freeze-out. The present-day local fraction $f_2$ also depends on late state conversion and the lifetime of the heavier state (Appendix A).
+
+Each coannihilation through $\chi_1\chi_2\to V^*\to b\bar b,c\bar c$ consumes one particle of each state and reduces the total number by two. The $(1,2)$ and $(2,1)$ terms in Eq. (4) together contribute $2n_1^{\rm eq}n_2^{\rm eq}\langle\sigma_{12}v\rangle/(n^{\rm eq})^2$, or about $\langle\sigma_{12}v\rangle/2$ for equal equilibrium fractions. As the Universe cools and the actual density exceeds its equilibrium value, a larger coannihilation rate removes dark particles faster and lowers the relic abundance. Coannihilation is enhanced near the mediator resonance, making the abundance sensitive to $M_V$. At one on-shell benchmark with $m_\chi=35$ GeV, $b\bar b$ accounts for about $92\%$ of the coannihilation rate. Annihilation of two particles in the same dark state to $VV$ can set the abundance when that channel opens. [8](https://doi.org/10.1103/PhysRevD.43.3191) · [9](https://doi.org/10.1016/0550-3213%2891%2990438-4)
+
+We compute the cross sections and solve for the total abundance with CalcHEP and micrOMEGAs 7.1.4, using `Fast=0` and `Beps=1e-9`. We assume that the two states together account for the full Planck dark matter abundance $\Omega_ch^2=0.1200\pm0.0012$. [10](https://arxiv.org/abs/2312.14894) · [11](https://arxiv.org/abs/1807.06209)
 
 At fixed $m_\chi$, Eq. (3) gives the coupling and propagator factor for coannihilation as
 
@@ -96,9 +118,16 @@ Changing $g_\chi$ affects the thermal average through the mediator width. Changi
 
 **Figure 2.** The left panel fixes $m_\chi=35$ GeV. The right panel shows the contribution of the pole neighborhood to the instantaneous thermal average. Open symbols mark the freeze-out temperatures at the individual points.
 
-The main grid uses $r=1$, $f_2=0.5$, and $d_\gamma(0)=0$ and includes the finite spacelike photon-mixing contribution from $c,b,t$ quarks. At each $(M_V,g_t)$, we eliminate $g_\chi$ with Eq. (3) and look for crossings of $\Omega_\chi h^2=0.1200$ on both sides of $M_V-2m_\chi-\Delta m=0$. The grid contains 35 mediator masses and 29 top couplings. We bracket roots at dark mass intervals of at most $1.10$ GeV and sample more finely near threshold. To propagate the measured abundance uncertainty, we solve separately for $0.1176,0.1188,0.1200,0.1212,0.1224$ at 11 representative coordinates. We record the parameters and collider limit for each root.
+The main grid uses $r=1$, $f_2=0.5$, and $d_\gamma(0)=0$ and includes the finite spacelike photon-mixing contribution from $c,b,t$ quarks. At each $(M_V,g_t)$, we eliminate $g_\chi$ with Eq. (3) and look for crossings of $\Omega_\chi h^2=0.1200$ on both sides of $M_V-2m_\chi-\Delta m=0$. The grid contains 35 mediator masses and 29 top couplings. We bracket roots at dark mass intervals of at most $1.10$ GeV and sample more finely near threshold.
 
-The Gaussian term $-2\ln\mathcal L_\Omega=[(\Omega_\chi h^2-0.1200)/0.0012]^2+\mathrm{const.}$ describes the measurement uncertainty on the abundance. We record the outcome for each target abundance separately when a branch disappears or reaches a scan boundary. For example, at $M_V=150.4$ GeV and $g_t=1.260$, the central solution at $r=2$ requires $g_\chi=1.498$. For the two lower abundance targets we find no root within $g_\chi\le1.50$.
+We approximate the Planck measurement $\Omega_ch^2=0.1200\pm0.0012$ with a Gaussian. The difference in $-2\ln\mathcal L_\Omega$ from its value at the center is the squared deviation in units of the measurement uncertainty.
+
+$$
+-2\ln\frac{\mathcal L_\Omega(\Omega_\chi h^2)}{\mathcal L_\Omega(0.1200)}
+=\left(\frac{\Omega_\chi h^2-0.1200}{0.0012}\right)^2.
+$$
+
+For example, $0.1188$ and $0.1176$ lie $1\sigma$ and $2\sigma$ below the center, giving 1 and 4, respectively. To propagate the measurement uncertainty to the collider limits, we use five abundance targets, $0.1176,0.1188,0.1200,0.1212,0.1224$, at each of 11 representative coordinates. For each target we hold $(M_V,g_t)$ and the LZ yield ratio $r$ fixed, scan $m_\chi$, and use Eq. (3) to obtain $g_\chi$ at each trial mass. We record the parameters of each branch where the calculated abundance reaches the target. We record a missing solution when a branch has no root within the scan range at that target. Section 5 defines the CMS limit for solutions that meet the on-shell template criteria. Section 6 reports the effects of varying the abundance and the target recoil yield.
 
 ## 5. LHC production, reconstruction, and statistical analysis
 
@@ -111,7 +140,7 @@ $$
 \tag{6}
 $$
 
-With the loose jet cut $p_T^j>20$ GeV, the truth-level $j+\mathrm{MET}$ cross section is comparable to the inclusive $t\bar t+\mathrm{MET}$ cross section near $M_V\simeq118$ GeV. Applying $p_T^{\rm miss}>200$ GeV to both channels gives a cross-section ratio $\sigma(j+\mathrm{MET})/\sigma(t\bar t+\mathrm{MET})$ of $0.135$–$0.149$. For example, at $(m_\chi,M_V,g_t,g_\chi)=(35,87.18,1.070,0.30)$ the two cross sections are $0.166$ and $1.23$ pb, respectively. We treat the top quarks as stable, so $p_T^{\rm miss}=p_T(V)$. The experimental sensitivity also depends on the top decays, reconstruction cuts, and backgrounds. [4](https://arxiv.org/abs/1512.00471) · [12](https://arxiv.org/abs/1405.0301) · [13](https://arxiv.org/abs/1507.00020)
+With the loose jet cut $p_T^j>20$ GeV, the truth-level $j+\mathrm{MET}$ cross section is comparable to the inclusive $t\bar t+\mathrm{MET}$ cross section near $M_V\simeq118$ GeV. Applying $p_T^{\rm miss}>200$ GeV to both channels gives a cross-section ratio $\sigma(j+\mathrm{MET})/\sigma(t\bar t+\mathrm{MET})$ of $0.135$–$0.149$. For example, at $(m_\chi,M_V,g_t,g_\chi)=(35,87.18,1.070,0.30)$ the two cross sections are $0.166$ and $1.23$ pb, respectively. We treat the top quarks as stable, so $p_T^{\rm miss}=p_T(V)$. [4](https://arxiv.org/abs/1512.00471) · [12](https://arxiv.org/abs/1405.0301) · [13](https://arxiv.org/abs/1507.00020)
 
 ![Figure 3. Truth cross sections after a hard MET requirement](figures/03_hard_met_cross_sections.png)
 
@@ -130,7 +159,7 @@ $$
 \tag{7}
 $$
 
-We constrain the signal yields to be nonnegative and the Poisson means to be positive. The signal covariance $C_s$ includes the multinomial covariance of the simulated counts, cross-section integration errors, and a common $1.6\%$ luminosity uncertainty. We retain correlations across years when they share simulated events. Between mass nodes, we interpolate yields linearly and combine the covariances of independent samples with squared interpolation weights. For each branch, $\mu=1$ denotes its nominal prediction. We obtain $\mu_{95}$ by solving the asymptotic condition $CL_s=0.05$ with a one-sided profile-likelihood statistic. The expected limits use an Asimov data set built from the central background prediction. The observed limits use the measured $n_i$ and a conditional background Asimov data set. The five expected quantiles describe background fluctuations. We propagate the relic-density uncertainty by solving again for each physical root. [18](https://doi.org/10.17182/hepdata.106115.v2/t14) · [19](https://doi.org/10.17182/hepdata.106115.v2/t15) · [20](https://cds.cern.ch/record/2242860) · [21](https://arxiv.org/abs/1007.1727) · [22](https://doi.org/10.1088/0954-3899/28/10/313)
+We constrain the signal yields to be nonnegative and the Poisson means to be positive. The signal covariance $C_s$ includes the multinomial covariance of the simulated counts, cross-section integration errors, and a common $1.6\%$ luminosity uncertainty. We retain correlations across years when they share simulated events. Between mass nodes, we interpolate yields linearly and combine the covariances of independent samples with squared interpolation weights. For each branch, $\mu=1$ denotes its nominal prediction. We obtain $\mu_{95}$ by solving the asymptotic condition $CL_s=0.05$. The expected limits use an Asimov data set built from the central background prediction. The observed limits use the measured $n_i$ and a conditional background Asimov data set. The five expected quantiles describe background fluctuations. We propagate the relic-density uncertainty by solving again for each physical root. [18](https://doi.org/10.17182/hepdata.106115.v2/t14) · [19](https://doi.org/10.17182/hepdata.106115.v2/t15) · [20](https://cds.cern.ch/record/2242860) · [21](https://arxiv.org/abs/1007.1727) · [22](https://doi.org/10.1088/0954-3899/28/10/313)
 
 We use $\tilde q_\mu=-2\ln[\mathcal L(\mu,\widehat{\widehat{\boldsymbol\theta}}_\mu)/\mathcal L(\widehat\mu,\widehat{\boldsymbol\theta})]$, set it to zero when $\widehat\mu>\mu$, and constrain $\widehat\mu\ge0$. With $a=\sqrt{\tilde q_{\mu,A}}$, the observed asymptotic statistic is
 
@@ -178,17 +207,27 @@ At some mediator masses, monojet sensitivity is confined to a finite interval in
 
 **Figure 5.** Blue intervals show the $\pm1\sigma$ and $\pm2\sigma$ expected quantiles from background fluctuations. Brown marks show the effect of the Planck $\pm2\sigma$ measurement uncertainty on the median expected limit. Red diamonds mark observed limits. The single-top panel uses the $\sqrt{\hat s}<1$ TeV truth-level proxy described in Section 7.
 
-At the representative points, the Planck measurement uncertainty changes the median expected monojet limit $\mu_{95}$ by at most $0.44\%$. Accounting for finite signal statistics and luminosity weakens the median expected limits by about $1.4\%$–$6.6\%$ compared with fits that fix the signal template. At 120 GeV, varying the relic abundance gives limits between $0.41056$ and $0.41415$. The $1\sigma$ expected band from background fluctuations is $[0.295,0.581]$. A model-specific covariance for scale and PDF uncertainties, production matching, and detector efficiencies remains to be determined.
+Using the procedure in Section 4, we find that varying the Planck abundance by $\pm2\sigma$ changes the median expected monojet $\mu_{95}$ by at most $0.44\%$ relative to the central-abundance result at the reference on-shell benchmarks. For example, at $M_V=150.4$ GeV, $g_t=1.260$, and $r=1$, the targets $0.1188,0.1200,0.1212$ give $(m_\chi/{\rm GeV},g_\chi)=(43.945,1.290),(43.896,1.286),(43.848,1.282)$, respectively. Across all five abundance targets, the median expected $\mu_{95}$ for this branch ranges from $0.98589$ to $0.98606$.
+
+At the 120 GeV point in Fig. 5, propagating the abundance uncertainty gives median expected limits from $0.41056$ to $0.41415$. Background fluctuations give a $1\sigma$ expected band of $[0.295,0.581]$. Accounting for finite signal statistics and luminosity weakens the median expected limits by about $1.4\%$–$6.6\%$ compared with fits that fix the signal template. A model-specific covariance for scale and PDF uncertainties, production matching, and detector efficiencies remains to be determined.
 
 ### 6.2 Low-energy photon mixing, the rate target, and the excited fraction
 
-We define $d_\gamma=e\epsilon_\gamma/g_t$ so that positive $d_\gamma$ increases the proton coupling by $g_t d_\gamma$. The zero-momentum kinetic mixing $d_\gamma(0)$ is an independent matching input. At fixed quark couplings, charged-quark loops determine the finite correction relative to zero momentum. Using a common Helm form factor, this changes $Q_A/g_t$ by $Z[d_\gamma(0)+\delta d_{cbt}(-q^2)]$. For $^{131}$Xe, the tree-level charge $Q_A/g_t\simeq8.05\times10^{-3}$ implies a cancellation near $d_\gamma(0)\simeq-1.49\times10^{-4}$. At $m_\chi=35$ GeV, varying $d_\gamma(0)=\pm7\times10^{-6}$ gives rates between $0.908$ and $1.095$ times the tree-level value, with $\kappa/\kappa_0=0.956$–$1.050$ required to match the yield. Near cancellation, the required ratio $\kappa/\kappa_0$ is about 56.5. Within the scanned coupling ranges, we find no solution at the central abundance at any of the 11 coordinates tested in this case. [6](https://arxiv.org/abs/1605.04917) · [23](https://doi.org/10.1103/tqw9-zm9x)
+Kinetic mixing with the photon gives the mediator $V$ an additional coupling to the electromagnetic current. We define $d_\gamma=e\epsilon_\gamma/g_t$, so the effective proton coupling receives a shift of $g_t d_\gamma$. The zero-momentum value $d_\gamma(0)$ is an independent matching input, which we set to zero in the main scan. Charged-quark loops give a finite correction relative to zero momentum. We retain the $c,b,t$ contribution $\delta d_{cbt}(-q^2)$ from Appendix A. [6](https://arxiv.org/abs/1605.04917) · [23](https://doi.org/10.1103/tqw9-zm9x)
+
+With a common Helm form factor, only the protons contribute to the electric charge term, so photon mixing shifts $Q_A/g_t$ by $Z[d_\gamma(0)+\delta d_{cbt}(-q^2)]$. For $^{131}$Xe, the tree-level charge is $Q_A/g_t\simeq8.05\times10^{-3}$ and $Z=54$. The mixing contribution can therefore nearly cancel the tree-level amplitude at $d_\gamma(0)\simeq-1.49\times10^{-4}$. At the reference value $d_\gamma(0)=0$ and $m_\chi=35$ GeV, the retained momentum-dependent correction reduces the integrated rate in the recoil window by about $0.077\%$.
+
+At $m_\chi=35$ GeV and fixed couplings, $d_\gamma(0)=-7\times10^{-6}$ and $+7\times10^{-6}$ give rates of $0.908$ and $1.095$ times the tree-level rate, respectively. Matching the same reference yield then requires $\kappa/\kappa_0=1.050$ and $0.956$, respectively. Near cancellation, this ratio rises to about $56.5$. In that case we find no solution at the central Planck abundance within the scanned coupling ranges at the 11 coordinates tested.
 
 ![Figure 6. Signed low-energy mixing and equal-rate spectral shapes](figures/06_matching_and_spectra.png)
 
 **Figure 6.** The left panel shows how photon mixing changes the coupling required to match the yield. The right panel compares spectra with the same integrated truth-level yield. After Gaussian smoothing with a width of 32.5 keV, the signal densities near 248 keV at $m_\chi=20,35,44$ GeV are approximately $2.75\times10^{-4}$, $4.54\times10^{-3}$, and $6.98\times10^{-3}$ events/keV. The energy-spectrum approximation uses Gaussian smoothing alone. The LZ S1/S2 response and backgrounds enter an event-level analysis.
 
 Varying the target yield over $r=0.75$–$1.25$ changes the median expected monojet limit by at most $9.4\%$ at the points tested. Reducing $f_2$ alone to 0.45 or 0.30 changes it by up to $3.0\%$ and $12.8\%$, respectively. Varying only the low-energy mixing within $|d_\gamma(0)|\le7\times10^{-6}$ changes it by at most $2.8\%$. At the 120 GeV benchmark, the choices $(d_\gamma(0),r,f_2)=(+7\times10^{-6},0.75,0.50)$ and $(-7\times10^{-6},1.25,0.45)$ give median expected limits of $0.465$ and $0.367$, respectively. Appendix A discusses how late downscattering and the excited-state lifetime affect the present-day fraction.
+
+In a separate check at $r=2$, we solve again for the central Planck abundance. The three sensitive benchmarks in Table 2 at $M_V=120,150.4,190.4$ GeV still give observed $\mu_{95}<1$, with limits of $0.507,0.310,0.265$, respectively.
+
+At the other representative point with $M_V=150.4$ GeV and $g_t=1.260$, increasing $r$ from 1 to 2 moves the central-abundance solution to $g_\chi=1.498$, close to the scan boundary $g_\chi=1.50$. The invisible branching fraction rises from $0.9922$ to $0.9944$, and the observed $\mu_{95}$ changes from $1.822$ to $1.818$, remaining above the exclusion threshold. At $r=2$ we find no solution on this branch within the scan range for the lower abundance targets $0.1188$ and $0.1176$, so no CMS limits are available at those two targets. [Benchmark roots at all targets](data/benchmark_roots.csv)
 
 ![Figure 7. Variation of the truth-level LZ yield](figures/07_lz_rate_variation.png)
 
