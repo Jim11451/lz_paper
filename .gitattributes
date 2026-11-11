@@ -1,0 +1,7 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.svg -text whitespace=-blank-at-eol
+*.pdf binary
+*.png binary
+*.npz binary
