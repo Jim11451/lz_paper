@@ -46,5 +46,11 @@
     "Some paper figures are assembled from archived images. Their original plotting code is included.",
     "The ttbar expected estimate inherits the collaborator likelihood and efficiencies.",
     "No persistent DOI has been minted. Cite the exact Git commit."
-  ]
+  ],
+  "clean_checkout": {
+    "source_commit": "31c8922",
+    "command": "python reproducibility/reproduce.py all",
+    "exit_code": 0,
+    "includes_integrity_verification": true
+  }
 }

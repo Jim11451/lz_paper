@@ -4237,9 +4237,9 @@
   },
   {
     "path": "VALIDATION.json",
-    "bytes": 1475,
+    "bytes": 1656,
     "normalization": "lf",
-    "sha256": "23961f7995c8d40b09f73461566b3ea64640a3c6d728f6ec6c98d61ab20b8978"
+    "sha256": "92b5734ab339c8b39aa52490d78cf80c332fba262b24678ad12ccc064d5d8c3a"
   },
   {
     "path": "work/pseudoDiracB_build/benchmark.par",
