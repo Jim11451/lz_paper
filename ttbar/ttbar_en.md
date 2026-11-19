@@ -1,6 +1,6 @@
 # Xenon recoil and LHC $t\bar t$+MET constraints on an exothermic pseudo-Dirac dark sector
 
-**Abstract:** We study a pseudo-Dirac dark-matter model in which a vector mediator $V$ couples to quarks with a mass-weighted strength, $g_{Vq}=g_t\,\hat m_q/172$, and to the two nearly degenerate dark states through an off-diagonal current. The model has four free parameters: the dark-matter mass $m_\chi$, the mediator mass $M_V$, and the two couplings $g_t$ and $g_\chi$; the mass splitting is fixed at $\delta\equiv m_{\chi_2}-m_{\chi_1}=1$ MeV. We impose three constraints simultaneously: the xenon recoil rate reported by LZ, the thermal relic abundance measured by Planck ($\Omega_\chi h^2=0.12$), and the CMS search for $t\bar t$+MET at $\sqrt s=13$ TeV with $138\ \mathrm{fb}^{-1}$. The first two reduce the parameter space to the $(M_V,g_t)$ plane, on which the third defines a 95% CL exclusion region. At $M_V=20$ GeV the whole column survives; for $M_V=30$–$50$ GeV the allowed region splits into two $g_t$ windows with an excluded band in between; for $M_V=60$–$80$ GeV only a narrow strip $g_t\lesssim0.35$–$0.38$ remains; above $M_V\simeq90$ GeV the entire valid parameter range is excluded. The two windows arise because a small $g_t$ suppresses the signal as $g_t^2$, while a large $g_t$ drives $\Gamma(V\to q\bar q)\propto g_t^2$ and crushes $\mathrm{BR}(V\to\chi\chi)$.
+**Abstract:** We study a pseudo-Dirac dark-matter model in which a vector mediator $V$ couples to quarks with a mass-weighted strength, $g_{Vq}=g_t\,\hat m_q/172$, and to the two nearly degenerate dark states through an off-diagonal current. The model has four free parameters: the dark-matter mass $m_\chi$, the mediator mass $M_V$, and the two couplings $g_t$ and $g_\chi$; the mass splitting is fixed at $\delta\equiv m_{\chi_2}-m_{\chi_1}=1$ MeV. We impose three constraints simultaneously: the xenon recoil rate reported by LZ, the thermal relic abundance measured by Planck ($\Omega_\chi h^2=0.12$), and the CMS search for $t\bar t$+MET at $\sqrt s=13$ TeV with $138\ \mathrm{fb}^{-1}$. The first two reduce the parameter space to the $(M_V,g_t)$ plane, on which the third defines a 95% CL exclusion region. At $M_V=20$ and 30 GeV the whole column survives; at $M_V=40$ GeV the allowed region splits into two $g_t$ windows ($g_t\le0.57$ and $\ge2.15$) with an excluded band in between; for $M_V=50$–$80$ GeV only a narrow strip $g_t\lesssim0.32$–$0.38$ remains; above $M_V\simeq90$ GeV the entire valid parameter range is excluded. The two windows arise because a small $g_t$ suppresses the signal as $g_t^2$, while a large $g_t$ drives $\Gamma(V\to q\bar q)\propto g_t^2$ and crushes $\mathrm{BR}(V\to\chi\chi)$.
 
 ## 1. Introduction
 
@@ -48,7 +48,7 @@ $$
 
 and we require $\Gamma_V/M_V<3\%$ (narrow width) and $M_V-2m_\chi\ge 5\Gamma_V$ (kinematically open).
 
-The model is implemented as a UFO. The signal samples were generated with `PseudoDiracFlavorEFT_UFO_loop`, in which the six quark couplings are independent external parameters (`Block flavcoup` entries 1–6) that the parameter card sets one by one according to Eq. (2); for $g_t=1$ they are $1.279\times10^{-5}$, $2.733\times10^{-5}$, $5.407\times10^{-4}$, $7.384\times10^{-3}$, $2.430\times10^{-2}$ and $1.000$. The $g_\chi$ and $\delta$ values go into `PDBINPUTS`, the mediator and dark-matter masses into `Block mass` (`9900032`, `100051`, `100052`). A second, single-parameter packaging, `PseudoDiracFlavorEFT_UFO_massprop` ($c_V=g_t/172$ in `PDBINPUTS`, $g_{Vq}=c_V\hat m_q$), has identical Feynman rules and gives 5.905 versus 5.836 pb at $M_V=100$ GeV, $g_t=1$ (a 1.17% difference); it serves as a cross-check of the coupling conventions. Signal samples are generated with MadGraph5_aMC@NLO 3.6.6, hadronised with Pythia8, passed through Delphes, and subjected to the analysis selection.
+The model is implemented as a UFO. The signal samples were generated with `PseudoDiracFlavorEFT_UFO_loop`, in which the six quark couplings are independent external parameters (`Block flavcoup` entries 1–6) that the parameter card sets one by one according to Eq. (2); for $g_t=1$ they are $1.279\times10^{-5}$, $2.733\times10^{-5}$, $5.407\times10^{-4}$, $7.384\times10^{-3}$, $2.430\times10^{-2}$ and $1.000$. The $g_\chi$ and $\delta$ values go into `PDBINPUTS`, the mediator and dark-matter masses into `Block mass` (`9900032`, `100051`, `100052`). A second, single-parameter packaging, `PseudoDiracFlavorEFT_UFO_massprop` ($c_V=g_t/172$ in `PDBINPUTS`, $g_{Vq}=c_V\hat m_q$), has identical Feynman rules and gives 5.905 versus 5.836 pb at $M_V=100$ GeV, $g_t=1$ (a 1.17% difference); it serves as a cross-check of the coupling conventions. Signal samples are generated with MadGraph5_aMC@NLO 3.6.6, hadronised with Pythia8, passed through Delphes, and subjected to the analysis selection. The production process $pp\to t\bar tV$ has only two initial states at the 0-parton level, $gg$ and $q\bar q$, with no $qg$; counting events at the 14 mass points, $gg$ contributes 91.7% ($M_V=20$ GeV) to 96.5% (200 GeV) and $q\bar q$ drops from 8.3% to 3.5%, with $u\bar u$ dominating inside $q\bar q$ (3.0% at $M_V=100$ GeV) followed by $d\bar d$ at 1.8%, while $s$, $c$ and $b$ together stay below 0.5%. Single-initial-state reruns at $M_V=100$ GeV confirm this: $gg$ gives 2.3825 pb against 2.3834 pb from the event fraction times the total cross section (ratio 1.00), and one beam orientation of $u\bar u$ gives 0.0375 pb, exactly half of the fraction (3.0%$\times$2.51 pb) because the two beam orientations contribute equally.
 
 ## 3. Direct detection: LZ rate normalisation
 
@@ -115,7 +115,7 @@ The two states are almost degenerate, so before freeze-out $\chi_1\chi_1$, $\chi
 
 and the abundance follows from the standard freeze-out equation. Neglecting co-annihilation (keeping only the first term of Eq. 5) underestimates $\Omega h^2$ by about a factor of two, so it must be included.
 
-We solve `darkOmega` with micrOMEGAs 7.1 on a $(m_\chi,M_V)$ grid: $m_\chi$ from 5 to 56 GeV and $M_V$ from 20 to 200 GeV, 20–26 points per column, refined to 0.3 GeV around the $\chi\chi$ threshold $m_\chi=M_V/2$. At every grid point $g_\chi$ is fixed by the LZ condition of Eq. (4) ($g_t=1$, $g_\chi=\kappa_{\rm LZ}M_V^2$), and we then impose the Planck band $0.1176\le\Omega_\chi h^2\le0.1224$. At the reference point $m_\chi=35$ GeV, $M_V=87.68$ GeV, $g_\chi=0.180$, $g_t=1.80$ we reproduce $\Omega h^2=0.123$, 2.5% from the target, which validates the chain. Since $\mathrm{d}\Omega/\mathrm{d}m_\chi$ is steep, the $\pm1\sigma$ abundance band corresponds to an O(1%) change in $m_\chi$, so each $M_V$ has a single solution at the centre of the band, $m_\chi^{\rm relic}(M_V)$. Figure 1(a) shows this band: $m_\chi$ rises monotonically from 8.53 GeV at $M_V=20$ GeV to 37.86 GeV at $M_V=200$ GeV, always satisfying $2m_\chi<M_V$, i.e. the $\chi\chi$ channel is open along the whole band.
+We solve `darkOmega` with micrOMEGAs 7.1 on a $(m_\chi,M_V)$ grid: $m_\chi$ from 5 to 56 GeV and $M_V$ from 20 to 200 GeV, 20–26 points per column, refined to 0.3 GeV around the $\chi\chi$ threshold $m_\chi=M_V/2$. At every grid point $g_\chi$ is fixed by the LZ condition of Eq. (4) ($g_t=1$, $g_\chi=\kappa_{\rm LZ}M_V^2$), and we then impose the Planck band $0.1176\le\Omega_\chi h^2\le0.1224$. Setting $g_t=1$ merely picks one representative point on that line: the LZ condition fixes only the product $g_tg_\chi=\kappa_{\rm LZ}M_V^2$, and the annihilation rate $\propto(g_\chi g_q)^2=(g_\chi g_t\hat m_q/172)^2$ depends on the same product, so $\Omega h^2$ is insensitive to how the product is split. Numerically ($m_\chi=35$, $M_V=87.68$ GeV), $(g_t,g_\chi)=(1,0.717)$ and $(1.8,0.398)$ give $\Omega h^2=0.0319$ and $0.0312$, a 2% difference that comes from the $V$ width and co-annihilation. At the reference point of the earlier report, $m_\chi=35$ GeV, $M_V=87.68$ GeV, $g_\chi=0.180$, $g_t=1.80$ (not on the $g_t=1$ scan line of this section; it only checks the interface), we reproduce $\Omega h^2=0.123$, in agreement with that report to 2.5%, which validates the parameter mapping and solver settings. That value is 0.5% above the upper edge 0.1224 of the band used here, so it is not used to fix the band: the 14 abundance points are solved by bisection and all converge to $\Omega h^2=0.1200$ ($|\Omega/0.12-1|<0.5\%$). Since $\mathrm{d}\Omega/\mathrm{d}m_\chi$ is steep, the $\pm1\sigma$ abundance band corresponds to an O(1%) change in $m_\chi$, so each $M_V$ has a single solution at the centre of the band, $m_\chi^{\rm relic}(M_V)$. Figure 1(a) shows this band: $m_\chi$ rises monotonically from 8.53 GeV at $M_V=20$ GeV to 37.86 GeV at $M_V=200$ GeV, always satisfying $2m_\chi<M_V$, i.e. the $\chi\chi$ channel is open along the whole band.
 
 The $M_V=20$ GeV column deserves a comment: at the $\chi\chi$ threshold $m_\chi=M_V/2=10$ GeV the resonance drives $\Omega h^2$ down to $1.3\times10^{-4}$, and $\Omega h^2=0.12$ has a solution on each side (8.53 and 10.34 GeV). We take 8.53 GeV, which satisfies $2m_\chi<M_V$; the other solution lies above threshold, where the $\chi\chi$ channel is closed and contributes nothing to the $t\bar t$+MET signal. At this solution $2m_\chi/M_V=0.85$, 2.9 GeV below threshold, so it is no longer on the steep resonance flank; with the 0.3 GeV grid the root is obtained by interpolation between adjacent points and is accurate to about 0.05 GeV (below 2% in $\kappa$). The other 13 solutions all lie in $0.38\le2m_\chi/M_V\le0.81$: for $M_V\le60$ GeV they sit about 20% below the $s$-channel $V$ pole (the resonance funnel) and move away as $M_V$ grows, reaching 0.38 at 200 GeV. No column lies on the steep flank at $2m_\chi=M_V$.
 
@@ -153,7 +153,7 @@ The statistical inputs are taken directly from the CMS post-fit results: signal,
 
 i.e. one background nuisance $\theta$ per signal region (coherent within the region; the constraint term is the second line of Eq. 7). The test statistic is $\tilde q_\mu$, CLs is computed with the asymptotic formulae of Cowan et al., and the expected limit uses the Asimov data set.
 
-![Statistical inputs of the CMS EXO-22-014 AH $0\ell2b$ region ($m_\phi=100$ GeV, $138\ \mathrm{fb}^{-1}$): total background with per-bin uncertainties (black), background plus reference signal (red) and observed data (blue). Lower panel: data-to-background ratio.](fig2_cms_inputs.png){width=72%}
+![Statistical inputs of the CMS EXO-22-014 AH $0\ell2b$ region ($m_\phi=100$ GeV, $138\ \mathrm{fb}^{-1}$). Top: post-fit yields of the ten background processes stacked, with the total background uncertainty as the hatched band, the reference signal ($\mu=1$, not stacked) as the dashed red line, and the observed data as black points. Bottom: data-to-background ratio, with the background relative uncertainty as the grey band and the statistical error of the data as vertical bars.](fig2_cms_inputs.png){width=88%}
 
 ### 5.3 Independent validation of the statistical framework
 
@@ -202,7 +202,7 @@ g_\chi=\frac{\kappa_{\rm LZ}(m_\chi)M_V^2}{g_t},
 \end{equation}
 ```
 
-Each column $M_V$ then fixes $m_\chi$, $g_\chi(g_t)$, $\Gamma_V(g_t)$ and $\mathrm{BR}(V\to\chi\chi)$; where several abundance solutions exist for one $M_V$ we keep the branch with $2m_\chi<M_V$ (only $M_V=20$ GeV has two, and we take 8.53 GeV). Substituting Eq. (8) into Eq. (6) gives the signal yield of that column.
+Each column $M_V$ then fixes $m_\chi$, $g_\chi(g_t)$, $\Gamma_V(g_t)$ and $\mathrm{BR}(V\to\chi\chi)$; where several abundance solutions exist for one $M_V$ we keep the branch with $2m_\chi<M_V$ (only $M_V=20$ GeV has two, and we take 8.53 GeV). Substituting Eq. (8) into Eq. (6) gives the signal yield of that column; the cross section $\sigma(pp\to t\bar tV)$ is computed with MG5 at each of the 14 $M_V$ nodes (LO, $g_t=1$, $m_\chi$ at the abundance solution of that column), with no interpolation.
 
 ### 6.2 Origin of the two $g_t$ windows
 
@@ -218,7 +218,7 @@ s\propto g_t^2\;\mathrm{BR}(V\to\chi\chi),
 \end{equation}
 ```
 
-By Eq. (9), a small $g_t$ suppresses the yield through $g_t^2$ and the signal falls below the background; a large $g_t$ makes $\Gamma_{q\bar q}$ grow as $g_t^2$ and crushes $\mathrm{BR}$, so the signal vanishes again. In between, $\mu_{95}$ has a minimum and defines an excluded interval. For $M_V=30$–$50$ GeV this interval does not reach $g_t=0$ or $g_t=\sqrt{4\pi}$, so the allowed region appears as two disconnected $g_t$ windows; above $M_V\simeq60$ GeV the large-$g_t$ side is excluded entirely and only a narrow low-$g_t$ strip survives. Figure 4 shows $\mu_{95}(g_t)$; the window edges are its intersections with $\mu_{95}=1$.
+By Eq. (9), a small $g_t$ suppresses the yield through $g_t^2$ and the signal falls below the background; a large $g_t$ makes $\Gamma_{q\bar q}$ grow as $g_t^2$ and crushes $\mathrm{BR}$, so the signal vanishes again. In between, $\mu_{95}$ has a minimum and defines an excluded interval. At $M_V=40$ GeV this interval does not reach $g_t=0$ or $g_t=\sqrt{4\pi}$, so the allowed region appears as two disconnected $g_t$ windows; above $M_V\simeq50$ GeV the large-$g_t$ side is excluded entirely and only a narrow low-$g_t$ strip survives. Figure 4 shows $\mu_{95}(g_t)$; the window edges are its intersections with $\mu_{95}=1$.
 
 ![95% CL exclusion in the $(M_V,g_t)$ plane. (a) expected (Asimov); (b) observed (CMS data). Dark red is excluded ($\mu_{95}<1$), dark blue allowed, and white marks invalid parameters ($g_\chi>1.5$ or $\Gamma_V/M_V>3\%$). The black line is $\mu_{95}=1$, the dashed line at the top is $g_t=\sqrt{4\pi}$. The figure uses the full-chain efficiency of this work (the $\varepsilon_i$ of Eq. 6) and is therefore not the same quantity as the CMS-template limits of Table 2.](fig3_exclusion.png){width=100%}
 
@@ -226,28 +226,28 @@ By Eq. (9), a small $g_t$ suppresses the yield through $g_t^2$ and the signal fa
 
 | $M_V$ [GeV] | $\min\mu_{95}$ (exp) | $\min\mu_{95}$ (obs) | verdict |
 |---|---|---|---|
-| 20 | 2.07 | 5.71 | column allowed |
-| 30 | 0.221 | 0.720 | $g_t\le0.57$ or $\ge1.42$ |
-| 40 | 0.105 | 0.366 | $g_t\le0.48$ or $\ge2.76$ |
-| 50 | 0.103 | 0.317 | $g_t\le0.45$ or $\ge3.00$ |
-| 60 | 0.042 | 0.177 | $g_t\lesssim0.35$ |
-| 70 | 0.028 | 0.146 | $0.21\le g_t\le0.38$ |
-| 80 | 0.018 | 0.096 | $0.32\le g_t\le0.38$ |
+| 20 | 21.8 | 110 | whole column allowed |
+| 30 | 0.526 | 1.57 | whole column allowed (expected excludes $0.53\le g_t\le1.68$) |
+| 40 | 0.171 | 0.504 | $g_t\le0.57$ or $\ge2.15$ |
+| 50 | 0.071 | 0.232 | $g_t\le0.38$ |
+| 60 | 0.042 | 0.169 | $g_t\le0.38$ |
+| 70 | 0.022 | 0.115 | $g_t\le0.32$ |
+| 80 | 0.015 | 0.078 | only $g_t=0.32$ |
 | 90 | 0.011 | 0.053 | column excluded |
-| 100 | $8.6\times10^{-3}$ | 0.046 | column excluded |
-| 120 | $6.0\times10^{-3}$ | 0.033 | column excluded |
-| 140 | $4.2\times10^{-3}$ | 0.020 | column excluded |
-| 160 | $4.0\times10^{-3}$ | 0.021 | column excluded |
-| 180 | $4.2\times10^{-3}$ | 0.022 | column excluded ($g_t\ge2.34$) |
-| 200 | $3.9\times10^{-3}$ | 0.020 | column excluded ($g_t\ge3.00$) |
+| 100 | $7.0\times10^{-3}$ | 0.037 | column excluded |
+| 120 | $5.0\times10^{-3}$ | 0.026 | column excluded |
+| 140 | $4.0\times10^{-3}$ | 0.019 | column excluded |
+| 160 | $4.0\times10^{-3}$ | 0.020 | column excluded |
+| 180 | $3.0\times10^{-3}$ | 0.018 | column excluded |
+| 200 | $4.0\times10^{-3}$ | 0.020 | column excluded |
 
 : Minimum $\mu_{95}$ per $M_V$ column and the allowed $g_t$ interval (observed, with the error model of Table 2).
 
 The large white area in the lower-right of Fig. 3 is produced by the validity requirement $g_\chi\le1.5$: by Eq. (8), $g_\chi=\kappa M_V^2/g_t$ grows as $M_V^2$ at fixed $g_t$, so every column requires $g_t\ge\kappa M_V^2/1.5$ — 0.14 from $M_V=60$ GeV, 0.55 from 100 GeV, 1.28 from 140 GeV, 2.31 from 180 GeV and 2.93 from 200 GeV. The last value is still below the perturbativity bound $\sqrt{4\pi}=3.545$, so the 200 GeV column retains a narrow valid strip at the top. The bound $\Gamma_V/M_V\le3\%$ only acts at smaller $g_t$, with a boundary to the left of $g_\chi=1.5$, so the white edge seen in the figure is set by the $g_\chi$ criterion.
 
-For $M_V=30$–$50$ GeV both ends of the two windows lie inside $g_\chi<1.5$ and $\Gamma_V/M_V<3\%$ (the tightest point is $M_V=50$ GeV, $g_t=0.1$, with $g_\chi=1.42$), so these windows are genuine $\mu_{95}$ crossings rather than artefacts of the validity cuts.
+At $M_V=40$ GeV both ends of the two windows lie inside $g_\chi<1.5$ and $\Gamma_V/M_V<3\%$ (the tightest point is $M_V=50$ GeV, $g_t=0.1$, with $g_\chi=1.42$), so this double window is a genuine $\mu_{95}$ crossing rather than an artefact of the validity cuts.
 
-![$\mu_{95}$ versus $g_t$ at fixed $M_V$ (observed). The curves fall and then rise; their intersections with $\mu_{95}=1$ are the window edges of Fig. 3, and the $M_V=30$, 40 and 50 GeV curves have two intersections each.](fig4_mu95.png){width=74%}
+![$\mu_{95}$ versus $g_t$ at fixed $M_V$ (observed). The curves fall and then rise; their intersections with $\mu_{95}=1$ are the window edges of Fig. 3, and the $M_V=40$ GeV curve has two intersections.](fig4_mu95.png){width=74%}
 
 ### 6.4 Systematic uncertainties
 
@@ -261,7 +261,7 @@ Table 4 summarises the systematic uncertainties and the direction in which they 
 | full-chain efficiency not aligned with the CMS cut-flow | exclusion region systematically larger |
 | no NLO corrections | signal rate too low, $g_t$ limit conservative |
 | nucleon normalisation of $\kappa_{\rm LZ}$ (valence-quark prescription for $g_N$) | shifts the windows overall; the equal-weight $g_B/6$ prescription gives a $g_N$ that differs by 7.25 |
-| signal templates generated at the previous band's $m_\chi$ (3%–26% higher, above 14% for $M_V\ge100$) | samples not regenerated; about 10% extra uncertainty on the $M_V=70$–80 GeV window edges |
+| signal templates | regenerated at the final band's $m_\chi$ (14 columns $\times$ 50k events; efficiency changes $\le$5%, +26% at $M_V=30$ GeV) and $\sigma(M_V)$ from 14 explicit MG5 points | no template mismatch remains; the old interpolation was 9 times too large at low $M_V$ |
 
 : Systematic uncertainties and their effect on the exclusion region.
 
@@ -272,8 +272,8 @@ The value of $\kappa_{\rm LZ}$ depends on the nucleon-coupling convention. We us
 We have combined the LZ xenon-recoil candidate, the Planck thermal relic abundance and the CMS $t\bar t$+MET search within a single parameterisation. The conclusions are:
 
 1. The first two constraints reduce the four-dimensional parameter space to the $(M_V,g_t)$ plane: $g_\chi$ follows from Eq. (4) and $m_\chi$ from $\Omega_\chi h^2=0.12$.
-2. At $M_V=20$ GeV the whole column survives; for $M_V=60$–$80$ GeV only a narrow strip $g_t\lesssim0.35$–$0.38$ remains (the lower edge at $M_V=70$ and 80 GeV is set by $g_\chi\le1.5$, at 0.21 and 0.32); above $M_V\simeq90$ GeV the entire valid parameter range is excluded.
-3. For $M_V=30$–$50$ GeV two $g_t$ windows appear (e.g. $g_t\le0.48$ and $g_t\ge2.76$ at $M_V=40$ GeV). They follow from the opposing scalings of $g_t^2$ and $\mathrm{BR}(V\to\chi\chi)$ in Eq. (9) and are not statistical fluctuations; both windows lie inside $g_\chi<1.5$ and $\Gamma_V/M_V<3\%$.
+2. At $M_V=20$ and 30 GeV the whole column survives; for $M_V=50$–$80$ GeV only a narrow strip $g_t\lesssim0.32$–$0.38$ remains (at $M_V=80$ GeV only $g_t=0.32$); above $M_V\simeq90$ GeV the entire valid parameter range is excluded.
+3. At $M_V=40$ GeV two $g_t$ windows appear ($g_t\le0.57$ and $g_t\ge2.15$), and at $M_V=30$ GeV the expected limit excludes $0.53\le g_t\le1.68$ although the observed one keeps the whole column. They follow from the opposing scalings of $g_t^2$ and $\mathrm{BR}(V\to\chi\chi)$ in Eq. (9) and are not statistical fluctuations.
 4. The statistical framework is independently validated against pyhf (0.10%/0.02% for the single region, 0.04%/0.01% for the 11-region combination) and the signal normalisation is fixed by the CMS production cards at 1.06241 pb, so Table 2 can be compared directly with the official limits.
 
 Further work includes control-region constraints to recover the observed sensitivity, the official covariance matrix, NLO corrections to the signal, and a bin-by-bin alignment of the efficiency curve with the CMS cut-flow.
