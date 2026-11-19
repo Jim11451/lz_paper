@@ -1,0 +1,5 @@
+benchmark,channel,selection,passed,total,acceptance,visible_xsec_fb,events_at_137fb,reference_limit_fb,signal_to_limit
+universal_gB0p1,monojet,truth_MET_gt_700_GeV,29,1000,0.029,0.9751514190000001,133.59574440300003,4.1,0.23784180951219516
+firstgen_only_gB0p1,monojet,truth_MET_gt_600_GeV,36,1000,0.036,1.1971763999999998,164.01316679999996,10.0,0.11971763999999999
+thirdgen_gq0p1,monojet,truth_MET_gt_400_GeV,130,1000,0.13,1.3943319,191.0234703,52.0,0.026814075
+mfv_top0p1,monojet,truth_MET_gt_400_GeV,150,1000,0.15,0.0017304478650000002,0.23707135750500002,52.0,3.327784355769231e-05

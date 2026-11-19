@@ -1,0 +1,11 @@
+{
+  "sample": "B_tree",
+  "energy_TeV": 13.6,
+  "pt_gen_GeV": 200,
+  "sigma_fb": 33.4684014,
+  "integration_error_fb": 0.12,
+  "events": 3000,
+  "max_lhe_alignment_error_GeV": 2.4441995037705055E-05,
+  "source": "/home/cms/phenomenology/PseudoDiracYukawaLZ_xsec_20261020/proc_monojet/Events/LZ_M87_gc0p3_monojet_13p6TeV/unweighted_events.lhe.gz",
+  "root": "/home/cms/phenomenology/monojet_analysis_20261106/detector/B_tree/events.root"
+}

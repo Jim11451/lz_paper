@@ -1,0 +1,4 @@
+-r requirements.txt
+PyYAML>=6,<7
+uproot>=5,<6
+awkward>=2,<3

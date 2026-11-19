@@ -1,0 +1,6 @@
+set automatic_html_opening False
+import model /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/PseudoDiracFlavorEFT_UFO-full
+define p5 = g u c d s b u~ c~ d~ s~ b~
+define j4 = u c d s u~ c~ d~ s~
+generate p5 p5 > t t~ chi1 chi2 QCD=2 QED=0 PDB=2
+output /home/cms/phenomenology/single_top_pilot_wfyqqxd8/template_tt -f

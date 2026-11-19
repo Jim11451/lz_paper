@@ -1,0 +1,26 @@
+import model /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/PseudoDiracFlavorEFT_UFO-full
+define p5 = g u c d s b u~ c~ d~ s~ b~
+define p4 = g u c d s u~ c~ d~ s~
+define j5 = g u c d s b u~ c~ d~ s~ b~
+define j4 = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+
+generate p5 p5 > chi1 chi2 j5 PDB=2 QCD=1 QED=0
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_monojet -f
+
+generate p5 p5 > chi1 chi2 a PDB=2 QED=1 QCD=0
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_monophoton -f
+
+generate p5 p5 > chi1 chi2 z PDB=2 QED=1 QCD=0, (z > l+ l-)
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_monozll -f
+
+generate p4 p4 > chi1 chi2 b b~ PDB=2 QCD=2 QED=0
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_bbmet -f
+
+generate p5 p5 > chi1 chi2 t t~ PDB=2 QCD=2 QED=0
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_ttmet -f
+
+generate p5 p5 > Vb PDB=1, (Vb > j5 j5 PDB=1)
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_dijet -f
+quit

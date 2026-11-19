@@ -1,0 +1,3 @@
+The analysis sources, model files, public-input snapshots, binned signal templates and numerical results accompanying this work are available at https://github.com/Jim11451/lz_paper. The reproduction package documents the software versions, parameter choices, simulation workflow and likelihood reconstruction. GitHub Actions checks the archived inputs and recomputes three monojet benchmark limits. External event generation and detector simulation require the software installations specified in the reproduction guide. The exact Git commit corresponding to the submitted manuscript should be recorded in the final version.
+
+本工作的计算代码、模型文件、公开输入快照、分箱信号模板与数值结果保存于 https://github.com/Jim11451/lz_paper。复现指南给出软件版本、参数选择、模拟流程和统计复算命令。提交论文时应记录与稿件对应的 Git commit。

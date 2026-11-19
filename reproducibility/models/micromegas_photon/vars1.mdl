@@ -1,0 +1,27 @@
+Pseudo-Dirac baryon portal for arXiv:2609.26570v1
+ Parameters
+  Name | Value       |  Comment                                                                   |
+ EE    |0.31343      |Electroweak coupling. EE=0.31223 corresponds to alpha=EE^2/(4*PI)=1/128.9
+ alfSMZ|0.1184       |MS-BAR Strong coupling at  MZ
+ Mm    |0.1057       |muon mass
+ Ml    |1.777        |tau-lepton mass
+ Mq    |0.05         |mass of u,d,s
+ Q     |100          |QCD scale
+ McMc  |1.2          |Mc(Mc)  MS-BAR
+ MbMb  |4.18         |Mb(Mb)  MS-BAR
+ Mtp   |172.5        |t-quark pole mass
+ MZ    |91.188       |Z-boson mass
+ MW    |80.385       |W-mass
+Mh    |125          |higgs mass
+Mchi  |35           |light Majorana mass [GeV]
+dM    |0.001        |mass splitting Mchi2-Mchi [GeV]
+MV    |30           |U(1)_B vector mass [GeV]
+gYt   |0.1275       |Yukawa-like vector normalization gVt; gVq=gYt*mq/mt
+dPhot |0.0          |e epsilon_gamma / gYt
+gChi  |0.32         |dark vector coupling gChi=gB*Bchi
+fExc  |0.5          |present-day local excited-state fraction
+rho0  |0.3          |total local dark-matter density [GeV/cm^3]
+v0    |238          |SHM most-probable speed [km/s]
+vE    |254          |Earth-frame boost used for benchmark [km/s]
+vesc  |544          |Galactic escape speed [km/s]
+===================================================================================================

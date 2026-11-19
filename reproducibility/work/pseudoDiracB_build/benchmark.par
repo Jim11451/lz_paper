@@ -1,0 +1,12 @@
+# Benchmark from arXiv:2609.26570v1, Fig. 6
+# masses are in GeV
+Mchi 35
+dM 0.001
+MV 30
+gB 1.46E-5
+gChi 0.32
+fExc 0.5
+rho0 0.3
+v0 238
+vE 254
+vesc 544

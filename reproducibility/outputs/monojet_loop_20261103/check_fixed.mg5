@@ -1,0 +1,3 @@
+import model /home/cms/phenomenology/monojet_loop_20261103/PseudoDiracFlavorEFT_UFO_loop_R2fix-full
+check brs /home/cms/phenomenology/monojet_loop_20261103/check_B.dat g g > Vb g PDB=1 QED=0 [noborn=QCD] --energy=1000 --reduction=1
+quit

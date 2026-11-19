@@ -1,0 +1,76 @@
+{
+  "n_observed": 1212846,
+  "control_region_prediction": 1166878.2470174134,
+  "observed_bins": 66,
+  "valid_pixels": 3589,
+  "expected_sensitive_pixels": 1621,
+  "observed_sensitive_pixels": 1099,
+  "both_sensitive_pixels": 1098,
+  "observed_first_mass_GeV": 102.4,
+  "expected_first_mass_GeV": 91.2,
+  "masses_with_signal_bins_at_zero": 11,
+  "max_expected_change_from_nonnegative": 0.0,
+  "best_observed": {
+    "mass_GeV": 200.0,
+    "gt_LZ": 3.5449077018110318,
+    "mchi_low_GeV": 46.05976220305556,
+    "mchi_high_GeV": 46.2838981632794,
+    "mchi_best_GeV": 46.2838981632794,
+    "gchi_best": 0.9314331475881164,
+    "omega_h2_best": 0.117599999917,
+    "width_GeV": 1.25831887607,
+    "BR_invisible": 0.897413186671716,
+    "n_intervals": 1.0,
+    "expected_mu95": 0.18149914926701802,
+    "expected_mu95_mc_profiled": 0.1872465215141213,
+    "observed_mu95": 0.14546238451725974,
+    "observed_mu95_mc_profiled": 0.1801508251178846,
+    "observed_muhat_mc_profiled": 0.0
+  },
+  "benchmarks": [
+    {
+      "point": "A",
+      "mass_GeV": 87.5299315453,
+      "gchi": 0.2,
+      "gt": 1.6176935900028844,
+      "expected_mu95": 1.145691834737171,
+      "expected_mu95_mc": 1.1957626578001004,
+      "observed_mu95": 1.6674884895197493,
+      "observed_mu95_mc": 3.2773316668517842,
+      "observed_mu95_mc_nominal_asimov": 3.277293126389175,
+      "observed_muhat_mc": 1.420907382933898
+    },
+    {
+      "point": "B",
+      "mass_GeV": 87.1833386421,
+      "gchi": 0.3,
+      "gt": 1.0699385121679226,
+      "expected_mu95": 1.7820331643321454,
+      "expected_mu95_mc": 1.8678330700935746,
+      "observed_mu95": 2.551874515271278,
+      "observed_mu95_mc": 5.516489083159816,
+      "observed_mu95_mc_nominal_asimov": 5.516456666007272,
+      "observed_muhat_mc": 2.322368061305527
+    },
+    {
+      "point": "C",
+      "mass_GeV": 86.0484642982,
+      "gchi": 1.0,
+      "gt": 0.3126794435974419,
+      "expected_mu95": 19.80333880548301,
+      "expected_mu95_mc": 20.334352938148516,
+      "observed_mu95": 29.564050611074183,
+      "observed_mu95_mc": 46.052505007830426,
+      "observed_mu95_mc_nominal_asimov": 46.0504368701703,
+      "observed_muhat_mc": 21.107998778182033
+    }
+  ],
+  "add_monojet_crosscheck": {
+    "d": 2,
+    "MD_TeV": 10.0,
+    "bins": 66,
+    "expected_mu95": 0.4184536066479908,
+    "observed_mu95": 0.7929766378163071,
+    "observed_muhat": 0.42823643628162134
+  }
+}

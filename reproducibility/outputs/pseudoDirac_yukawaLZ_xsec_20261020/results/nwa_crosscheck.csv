@@ -1,0 +1,2 @@
+benchmark,channel,sqrt_s_TeV,MV_GeV,gt,gChi,Mchi_GeV,delta_GeV,sigma_fb,integration_error_fb,width_GeV,BR_invisible,N_generated,runtime_s,run_name,N_MET100,sigma_MET100_fb,N_MET150,sigma_MET150_fb,N_MET200,sigma_MET200_fb,N_MET250,sigma_MET250_fb,N_MET300,sigma_MET300_fb,N_MET400,sigma_MET400_fb,N_MET500,sigma_MET500_fb,sigma_times_BR_fb
+LZ_M87_gc0p3,ttv_nwa,13.0,87.1833386421,1.06993948302,0.3,35.0,0.001,8883.23277788,37.07,0.04614074796523106,0.8889043242392664,3000,51.79390734201297,LZ_M87_gc0p3_ttv_nwa_13TeV,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,7896.344029481523

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "remote_account": "cms",
+  "remote_host": "100.120.169.8",
+  "remote_root": "/home/cms/phenomenology/monojet_loop_20261103",
+  "uploaded_UFO": "/home/cms/PseudoDiracFlavorEFT_UFO_loop",
+  "production_UFO": "PseudoDiracFlavorEFT_UFO_loop_R2fix-full",
+  "model_repair": "six flavor-resolved gggV R2 terms, adapted directly from supplied loop_sm GGGA vector term",
+  "MadGraph_version": "3.6.6",
+  "process": "g g > Vb g PDB=1 QED=0 [noborn=QCD]",
+  "energies_TeV": [13.0,13.6],
+  "PDF": "nn23lo1",
+  "jet_pt_min_GeV": 200,
+  "jet_abs_eta_max": 4.5,
+  "dark_mass_GeV": 35.0,
+  "delta_GeV": 0.001,
+  "dark_vertex": "gChi/2",
+  "invisible_final_state": "on-shell gg->gV times physical BR(V->chi1 chi2), narrow-width approximation",
+  "off_shell_dark_pair_integrated": false,
+  "full_NLO_calculation": false,
+  "parton_shower_or_detector_simulation": false,
+  "benchmark_origin": "original tree-level LZ+relic candidates from 2026-10-20; not the later LZ-only normalization update",
+  "ward_test_fixed_ratio": 6.2728358221e-24,
+  "ward_test_uploaded_ratio": 44111.539890,
+  "events_per_run": 1000
+  ,"remote_archive_sha256": "fce8e190c113f06c73890bbe3c43aba8c1a03b67e1183e08058e21026b863a00"
+}

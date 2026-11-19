@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and record the exact Git commit when using these numerical inputs or analysis sources."
+title: "LZ recoil rate, thermal pseudo-Dirac dark matter and CMS missing-momentum phenomenology"
+type: software
+version: "2026.11.19"
+date-released: "2026-11-19"
+repository-code: "https://github.com/Jim11451/lz_paper"

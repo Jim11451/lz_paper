@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-19",
+  "python": "3.12",
+  "offline_stages_passed": [
+    "benchmarks",
+    "validation",
+    "contour",
+    "figures",
+    "cms-benchmark",
+    "cancellation"
+  ],
+  "original_benchmarks": [
+    [
+      120,
+      0.4123600920806323,
+      0.6070793775659423
+    ],
+    [
+      150.4,
+      0.18411177113501795,
+      0.3401937673456408
+    ],
+    [
+      190.4,
+      0.2194385118961038,
+      0.2731662537803575
+    ]
+  ],
+  "pooled_contour": {
+    "expected_count": 199,
+    "observed_count": 162,
+    "expected_lowest_mass_GeV": 92,
+    "observed_lowest_mass_GeV": 104
+  },
+  "official_vector_crossings_GeV": {
+    "expected": 2207.748010967931,
+    "observed": 1941.1575226007994
+  },
+  "official_template_fits": 184,
+  "official_spectrum_bins": 594,
+  "fresh_linux_model_build": "not tested in this packaging session",
+  "fresh_madgraph_pythia_delphes_chain": "not tested in this packaging session",
+  "model_source": "baseline CalcHEP files plus the exact photon-current transformation in the archived relic_scan_remote.py",
+  "limitations": [
+    "Historical simulation orchestration retains workstation installation paths. Configure external software for a fresh event run.",
+    "Some paper figures are assembled from archived images. Their original plotting code is included.",
+    "The ttbar expected estimate inherits the collaborator likelihood and efficiencies.",
+    "No persistent DOI has been minted. Cite the exact Git commit."
+  ],
+  "clean_checkout": {
+    "source_commit": "31c8922",
+    "command": "python reproducibility/reproduce.py all",
+    "exit_code": 0,
+    "includes_integrity_verification": true
+  }
+}

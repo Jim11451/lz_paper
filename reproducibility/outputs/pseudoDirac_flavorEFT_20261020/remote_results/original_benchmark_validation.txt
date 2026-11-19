@@ -1,0 +1,5 @@
+new_ufo_sigma_pb=1.724060000000e-09
+legacy_stale_process_sigma_pb=5.737000000000e-10
+physical_color_corrected_reference_pb=1.721100000000e-09
+relative_difference_from_color_corrected=1.719831e-03
+new_over_legacy=3.005159e+00

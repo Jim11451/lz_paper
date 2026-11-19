@@ -1,0 +1,30 @@
+{
+  "calculation_tag": "20261020",
+  "report_date_local": "2026-10-21",
+  "remote_account": "cms",
+  "tailscale_address": "100.120.169.8",
+  "remote_directory": "/home/cms/phenomenology/PseudoDiracYukawaLZ_xsec_20261020",
+  "MadGraph_version": "3.6.6",
+  "model": "PseudoDiracFlavorEFT_UFO-full",
+  "model_origin": "../pseudoDirac_flavorEFT_20261020/model/PseudoDiracFlavorEFT_UFO",
+  "parameter_origin": "../pseudoDirac_yukawaLZ_20261020/results/roots.csv and mass_roots.csv",
+  "collider_energies_TeV": [13.0,13.6],
+  "PDF": "NNPDF2.3 LO, nn23lo1",
+  "calculation": "tree level, generated full dark-pair final states",
+  "Mchi1_GeV": 35.0,
+  "delta_GeV": 0.001,
+  "tops_decayed": false,
+  "showers": false,
+  "detector_simulation": false,
+  "dark_pair_final_state_runs": 19,
+  "independent_ttV_validation_runs": 1,
+  "remote_archive_sha256": "d3c89f0609e717d0293e6ed5ba38606b61725cd7f185974204db03a98ff8b72f",
+  "MET_definition": "magnitude of vector sum of final chi1 and chi2 transverse momenta",
+  "zero_tail_counts": "zero generated counts do not imply zero physical cross section",
+  "limitations": [
+    "tree-level LZ+relic normalization with assumed excited fraction 0.5",
+    "no loop-induced gg->gV monojet sample",
+    "no scale or PDF systematic evaluation",
+    "no CMS recast"
+  ]
+}

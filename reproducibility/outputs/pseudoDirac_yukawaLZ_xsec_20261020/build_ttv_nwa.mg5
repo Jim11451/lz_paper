@@ -1,0 +1,5 @@
+import model /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/PseudoDiracFlavorEFT_UFO-full
+define p5 = g u c d s b u~ c~ d~ s~ b~
+generate p5 p5 > t t~ Vb PDB=1 QCD=2 QED=0
+output /home/cms/phenomenology/PseudoDiracYukawaLZ_xsec_20261020/proc_ttv_nwa
+quit
