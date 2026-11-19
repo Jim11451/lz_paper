@@ -1,0 +1,21 @@
+{
+  "grid_pixels": 8181,
+  "valid_pixels": 3589,
+  "expected_sensitive_pixels": 1621,
+  "strongest": {
+    "mass_GeV": 150.4,
+    "gt_LZ": 3.5449077018110318,
+    "mchi_low_GeV": 43.8034836023235,
+    "mchi_high_GeV": 43.99818714064819,
+    "mchi_best_GeV": 43.99818714064819,
+    "gchi_best": 0.45951444640926226,
+    "omega_h2_best": 0.117599999727,
+    "width_GeV": 0.297095088396,
+    "BR_invisible": 0.6732584789095052,
+    "n_intervals": 1.0,
+    "expected_mu95": 0.17205135803734534,
+    "expected_mu95_mc_profiled": 0.1833558783933199
+  },
+  "minimum_scanned_MV_with_mu95_below_one": 91.2,
+  "n_micromegas_evaluations": 55333
+}

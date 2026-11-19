@@ -1,0 +1,14 @@
+[
+  {
+    "mv_GeV": 60.0,
+    "expected_unit_signal_limit": 0.0435944953364037,
+    "relative_scaling_spread": 5.5812158388457433e-05,
+    "checked_grid_points": 40
+  },
+  {
+    "mv_GeV": 100.0,
+    "expected_unit_signal_limit": 0.038639814465992746,
+    "relative_scaling_spread": 2.379567216537204e-05,
+    "checked_grid_points": 23
+  }
+]

@@ -1,0 +1,2 @@
+{"reference": "sig_MV72.root", "comparison": "sig_MV90.root", "events_compared": 5000, "same_dark_four_vectors": 5000, "max_component_difference_GeV": 0.0}
+{"reference": "sig_MV72.root", "comparison": "sig_MV110.root", "events_compared": 5000, "same_dark_four_vectors": 5000, "max_component_difference_GeV": 0.0}

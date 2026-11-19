@@ -6,7 +6,10 @@
 - English manuscript [Markdown](phenomenology_en.md) · [PDF](phenomenology_en.pdf)
 - [图表与数据来源](FIGURE_SOURCES.md)
 - [组员的顶夸克伴随产生报告复核](ttbar_report_review_zh.md)
+- [PRD LaTeX / Overleaf 稿件](prd_overleaf/README.md) · [对应中文稿](phenomenology_prd_zh.md)
 
 中英文稿共用 `figures/` 中的图片和 `data/` 中的扫描结果与验证数据。修改正文时编辑 Markdown 源稿，换图时同步更新两版 PDF 和图表来源。
 
-This repository contains the manuscript sources, PDF snapshots, figures, and numerical inputs for reviewing the reported results. Event generation and likelihood refits require the separate analysis workspace described in the provenance notes.
+完整计算代码、模型、公开 CMS 输入、分箱信号模板及运行说明见 [可复现计算包](reproducibility/README.md)。离线拟合入口为 `python reproducibility/reproduce.py all`，先按包内说明安装依赖。文件完整性与三个 monojet 基准点由 GitHub Actions 自动核对。
+
+The [reproduction package](reproducibility/README.md) includes analysis sources, model files, numerical inputs, and commands for offline likelihood reconstruction and fresh external-software jobs. Validation records distinguish the tested offline calculations from external simulation builds.

@@ -1,0 +1,18 @@
+Pseudo-Dirac baryon portal for arXiv:2609.26570v1
+ Constraints
+ Name  |  Expression                                                                                <|
+CW     |MW/MZ
+SW     |sqrt(1-CW^2)
+LamQCD |initQCD5(alfSMZ,McMc,MbMb,Mtp)
+ GF    |EE^2/(2*SW*MW)^2/Sqrt2
+ Mb    |MbEff(Q)
+ Mt    |MtEff(Q)
+Mc    |McEff(Q)
+Mchi2  |Mchi+dM
+gYu    |gYt*(0.0022/172+2*dPhot/3)
+gYd    |gYt*(0.0047/172-dPhot/3)
+gYs    |gYt*(0.096/172-dPhot/3)
+gYc    |gYt*(1.27/172+2*dPhot/3)
+gYb    |gYt*(4.18/172-dPhot/3)
+gYtop  |gYt*(1+2*dPhot/3)
+======================================================================================================

@@ -1,0 +1,56 @@
+{
+  "previous_B_template_mu95": 1.7368524413568704,
+  "benchmarks": [
+    {
+      "point": "A",
+      "mass_GeV": 87.5299315453,
+      "gchi": 0.2,
+      "gt_LZ": 1.6176935900028844,
+      "expected_mu95": 1.145691834737171,
+      "expected_mu95_mc_profiled": 1.1957626578001004,
+      "mc_resampled_lo68": 0.8851620350988959,
+      "mc_resampled_hi68": 1.1245707247099987,
+      "signal_events": 11973.903566826419
+    },
+    {
+      "point": "B",
+      "mass_GeV": 87.1833386421,
+      "gchi": 0.3,
+      "gt_LZ": 1.0699385121679226,
+      "expected_mu95": 1.7820331643321454,
+      "expected_mu95_mc_profiled": 1.8678330700935746,
+      "mc_resampled_lo68": 1.3572818655824403,
+      "mc_resampled_hi68": 1.7512846346128945,
+      "signal_events": 7636.254440628083
+    },
+    {
+      "point": "C",
+      "mass_GeV": 86.0484642982,
+      "gchi": 1.0,
+      "gt_LZ": 0.3126794435974419,
+      "expected_mu95": 19.80333880548301,
+      "expected_mu95_mc_profiled": 20.334352938148513,
+      "mc_resampled_lo68": 16.058832028224103,
+      "mc_resampled_hi68": 19.79542197901583,
+      "signal_events": 744.1521352596388
+    }
+  ],
+  "best": {
+    "mass_GeV": 200.0,
+    "gchi": 0.4799023252469894,
+    "gt": 3.5198180963585277,
+    "mu95": 0.23445103694769742
+  },
+  "best_mc": {
+    "mass_GeV": 200.0,
+    "gchi": 0.4799023252469894,
+    "gt": 3.5198180963585277,
+    "mu95": 0.24187518955942897
+  },
+  "first_mass_with_mu95_below_one": 92.0,
+  "first_mass_with_mc_mu95_below_one": 92.5,
+  "n_mass_nodes": 11,
+  "grid_points": 63440,
+  "valid_grid_points": 46106,
+  "generated_events": 227700
+}

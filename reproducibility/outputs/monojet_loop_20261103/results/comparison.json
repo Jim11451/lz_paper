@@ -1,0 +1,73 @@
+[
+  {
+    "label": "B",
+    "MV": "87.1833386421",
+    "gt": "1.06993948302",
+    "gChi": "0.3",
+    "sqrt_s_TeV": "13.6",
+    "top_only": "False",
+    "sigma_Vj_fb": "171.603",
+    "error_Vj_fb": "1.2730000000000001",
+    "BR_invisible": "0.8889043242392664",
+    "sigma_monojet_NWA_fb": "152.53864875243084",
+    "error_NWA_fb": "1.1315752047565861",
+    "tree_fb": 33.4684014,
+    "loop_over_tree": 4.55769150517093,
+    "tree_plus_loop_fb": 186.00705015243085
+  },
+  {
+    "label": "B_toponly",
+    "MV": "87.1833386421",
+    "gt": "1.06993948302",
+    "gChi": "0.3",
+    "sqrt_s_TeV": "13.6",
+    "top_only": "True",
+    "sigma_Vj_fb": "163.28799999999998",
+    "error_Vj_fb": "1.535",
+    "BR_invisible": "0.8889043242392664",
+    "sigma_monojet_NWA_fb": "145.1474092963813",
+    "error_NWA_fb": "1.3644681377072738"
+  },
+  {
+    "label": "B_13TeV",
+    "MV": "87.1833386421",
+    "gt": "1.06993948302",
+    "gChi": "0.3",
+    "sqrt_s_TeV": "13.0",
+    "top_only": "False",
+    "sigma_Vj_fb": "152.038",
+    "error_Vj_fb": "0.8252999999999999",
+    "BR_invisible": "0.8889043242392664",
+    "sigma_monojet_NWA_fb": "135.1472356486896",
+    "error_NWA_fb": "0.7336127387946665"
+  },
+  {
+    "label": "A",
+    "MV": "87.5299315453",
+    "gt": "1.61769505789",
+    "gChi": "0.2",
+    "sqrt_s_TeV": "13.6",
+    "top_only": "False",
+    "sigma_Vj_fb": "393.50700000000006",
+    "error_Vj_fb": "2.472",
+    "BR_invisible": "0.6099393413904926",
+    "sigma_monojet_NWA_fb": "240.0154004125486",
+    "error_NWA_fb": "1.5077700519172976"
+  },
+  {
+    "label": "C",
+    "MV": "86.0484642982",
+    "gt": "0.312679727321",
+    "gChi": "1.0",
+    "sqrt_s_TeV": "13.6",
+    "top_only": "False",
+    "sigma_Vj_fb": "14.5746",
+    "error_Vj_fb": "0.09056",
+    "BR_invisible": "0.9990226288012838",
+    "sigma_monojet_NWA_fb": "14.560355205727191",
+    "error_NWA_fb": "0.09047148926424427",
+    "tree_fb": 3.25219801,
+    "loop_over_tree": 4.477081395707265,
+    "tree_plus_loop_fb": 17.812553215727192
+  }
+]

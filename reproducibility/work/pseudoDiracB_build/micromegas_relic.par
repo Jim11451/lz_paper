@@ -1,0 +1,13 @@
+# Same masses and portal coupling as the paper benchmark.
+# gChi is retuned for Omega h^2 near 0.12 using micrOMEGAs 7.1.10,
+# which thermally averages the near-threshold chi_i chi_i -> V V rate.
+Mchi 35
+dM 0.001
+MV 30
+gB 1.46E-5
+gChi 0.2981
+fExc 0.5
+rho0 0.3
+v0 238
+vE 254
+vesc 544

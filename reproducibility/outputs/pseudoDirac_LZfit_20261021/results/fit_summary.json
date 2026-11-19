@@ -1,0 +1,94 @@
+{
+  "ideal": {
+    "best": {
+      "mchi_GeV": 48.78596369504762,
+      "delta_keV": 1021.9978992443687,
+      "MV_GeV": 87.1833386421,
+      "product_gt_gchi_MLE": 0.6715207373797856,
+      "N_ROI_MLE": 0.7750080865639507,
+      "N_SB_MLE": 0.22499191343604924,
+      "density_at_248_events_per_keV": 0.006614771584572211,
+      "shape_nll": 5.018450011932446,
+      "rate_scale": 0.4509401007310909
+    },
+    "benchmark_m35_delta1000": {
+      "mchi_GeV": 35.0,
+      "delta_keV": 1000.0,
+      "MV_GeV": 87.1833386421,
+      "product_gt_gchi_MLE": 0.30312490963838645,
+      "N_ROI_MLE": 0.9993433611256926,
+      "N_SB_MLE": 0.0006566388743075026,
+      "density_at_248_events_per_keV": 0.0021894994784010975,
+      "shape_nll": 6.124082309950254,
+      "rate_scale": 0.09188471084327994,
+      "two_delta_nll_vs_best": 2.211264596035617
+    },
+    "gaussian_width_keV": 0.0
+  },
+  "gaussian_proxy": {
+    "best": {
+      "mchi_GeV": 45.222784550993886,
+      "delta_keV": 1021.9978991390459,
+      "MV_GeV": 87.1833386421,
+      "product_gt_gchi_MLE": 0.5966755983234986,
+      "N_ROI_MLE": 0.8854015476750825,
+      "N_SB_MLE": 0.1145984523249175,
+      "density_at_248_events_per_keV": 0.0069521971889968965,
+      "shape_nll": 4.968697527066172,
+      "rate_scale": 0.35602176963470505
+    },
+    "benchmark_m35_delta1000": {
+      "mchi_GeV": 35.0,
+      "delta_keV": 1000.0,
+      "MV_GeV": 87.1833386421,
+      "product_gt_gchi_MLE": 0.3085376998745414,
+      "N_ROI_MLE": 0.9985710440031055,
+      "N_SB_MLE": 0.0014289559968944114,
+      "density_at_248_events_per_keV": 0.004519891145812441,
+      "shape_nll": 5.3992673682128505,
+      "rate_scale": 0.09519551224387256,
+      "two_delta_nll_vs_best": 0.8611396822933575
+    },
+    "gaussian_width_keV": 32.526911934581186
+  },
+  "assumptions": {
+    "event_keV": 248,
+    "exposure_tonne_year": 2.84,
+    "ROI_keV": [
+      5.4,
+      269.9
+    ],
+    "sideband_keV": [
+      350.0,
+      675.0
+    ],
+    "background": 0,
+    "nominal_efficiency": 1,
+    "fExc": 0.5,
+    "rho_total_GeV_cm3": 0.3,
+    "form_factor": "micrOMEGAs numerical two-parameter Fermi, NOT analytic Helm",
+    "shape_scan_mchi_GeV": [
+      10,
+      1000
+    ],
+    "shape_scan_delta_keV": [
+      150,
+      1021.9979
+    ],
+    "coupling_constraint": "profile g_t*gChi freely; no relic recomputation at shifted fits",
+    "reference_max_relative_rate_difference": 2.235285055129932e-05,
+    "official_detector_response": false,
+    "official_S1_S2_background_likelihood": false,
+    "Gaussian_proxy": "constant sqrt(stat^2+sys^2), illustrative; not measured resolution function"
+  },
+  "exact_Poisson_Garwood_mean_intervals": {
+    "0.682689492": [
+      0.1727537791049183,
+      3.2995265585528957
+    ],
+    "0.95": [
+      0.025317807984289897,
+      5.571643390938898
+    ]
+  }
+}

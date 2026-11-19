@@ -1,0 +1,5 @@
+import model /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/PseudoDiracFlavorEFT_UFO-full
+define p5 = g u c d s b u~ c~ d~ s~ b~
+generate p5 p5 > chi1 chi2 PDB=2
+output /home/cms/phenomenology/PseudoDiracFlavorEFT_20261020/proc_inclusive_full -f
+quit

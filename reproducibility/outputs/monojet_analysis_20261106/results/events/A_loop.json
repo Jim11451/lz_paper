@@ -1,0 +1,11 @@
+{
+  "sample": "A_loop",
+  "energy_TeV": 13.6,
+  "pt_gen_GeV": 200,
+  "sigma_fb": 240.0154004125486,
+  "integration_error_fb": 1.5077700519172976,
+  "events": 1000,
+  "max_lhe_alignment_error_GeV": 2.9175858117014286e-05,
+  "source": "/home/cms/phenomenology/monojet_loop_20261103/ggVg/Events/A/unweighted_events.lhe.gz",
+  "root": "/home/cms/phenomenology/monojet_analysis_20261106/detector/A_loop/events.root"
+}

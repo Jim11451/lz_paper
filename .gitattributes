@@ -1,7 +1,16 @@
 .gitattributes text eol=lf
 .gitignore text eol=lf
+reproducibility/** text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
 *.md text eol=lf
 *.svg -text whitespace=-blank-at-eol
 *.pdf binary
 *.png binary
 *.npz binary
+*.gz binary
+reproducibility/outputs/** -whitespace
+reproducibility/work/** -whitespace
+reproducibility/models/** -whitespace
+phenomenology_prd_zh.md whitespace=-blank-at-eol

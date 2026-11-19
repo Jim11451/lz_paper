@@ -1,0 +1,110 @@
+(* Mass-basis pseudo-Dirac U(1)_B model for arXiv:2609.26570v1.
+   This file is designed to be loaded after the SM definitions.  It follows
+   the field conventions of niDM_feynrules (arXiv:2405.08081), but retains
+   only the interactions used in the LZ/GCE paper. *)
+
+M$ModelName = "PseudoDiracB_mass_basis";
+
+M$Information = {
+  Authors -> "LZ phenomenology workspace",
+  Version -> "0.1",
+  Date -> "03 October 2026",
+  References -> {"arXiv:2609.26570", "arXiv:2405.08081"}
+};
+
+FeynmanGauge = False;
+
+IndexRange[Index[DarkGeneration]] = Range[2];
+IndexStyle[DarkGeneration, d];
+
+M$Parameters = {
+  gB == {
+    ParameterType -> External,
+    Value -> 1.46*^-5,
+    InteractionOrder -> {DB, 1},
+    Description -> "U(1)_B coupling in the convention of Eq. (1)"
+  },
+  gChi == {
+    ParameterType -> External,
+    Value -> 0.32,
+    InteractionOrder -> {DB, 1},
+    Description -> "Dark vector coupling gChi=gB BChi"
+  },
+  MChi1 == {
+    ParameterType -> External,
+    Value -> 35.0,
+    InteractionOrder -> {DB, 0},
+    Description -> "Light Majorana mass"
+  },
+  DeltaM == {
+    ParameterType -> External,
+    Value -> 0.001,
+    InteractionOrder -> {DB, 0},
+    Description -> "MChi2-MChi1"
+  },
+  MChi2 == {
+    ParameterType -> Internal,
+    Value -> MChi1 + DeltaM,
+    InteractionOrder -> {DB, 0},
+    Description -> "Excited Majorana mass"
+  },
+  MV == {
+    ParameterType -> External,
+    Value -> 30.0,
+    InteractionOrder -> {DB, 0},
+    Description -> "Baryonic vector mass"
+  }
+};
+
+M$ClassesDescription = {
+  V[6] == {
+    ClassName -> VB,
+    SelfConjugate -> True,
+    Mass -> {MV, 30.0},
+    Width -> {WVB, 0.0},
+    PropagatorLabel -> "V",
+    PropagatorType -> W,
+    PropagatorArrow -> None,
+    PDG -> 9900032,
+    ParticleName -> "V"
+  },
+  F[5] == {
+    ClassName -> chi,
+    ClassMembers -> {chi1, chi2},
+    Indices -> {Index[DarkGeneration]},
+    FlavorIndex -> DarkGeneration,
+    SelfConjugate -> True,
+    Mass -> {MChi, {MChi1, 35.0}, {MChi2, 35.001}},
+    Width -> {WChi, {WChi1, 0.0}, {WChi2, 0.0}},
+    PropagatorLabel -> {"chi", "chi1", "chi2"},
+    PropagatorType -> S,
+    PropagatorArrow -> None,
+    PDG -> {100051, 100052},
+    ParticleName -> {"~x1", "~x2"},
+    FullName -> {"light pseudo-Dirac state", "excited pseudo-Dirac state"}
+  }
+};
+
+LVB := Block[{mu, nu},
+  -1/4 FS[VB, mu, nu] FS[VB, mu, nu]
+  + 1/2 MV^2 VB[mu] VB[mu]
+];
+
+LChi := Block[{mu, s, d},
+  I/2 chibar.Ga[mu].del[chi, mu]
+  - 1/2 MChi[d] chibar[s, d].chi[s, d]
+];
+
+(* Eq. (3).  The factor of i is required by hermiticity for two Majorana
+   mass eigenstates in this phase convention. *)
+LChiV := Block[{mu, s, r},
+  I gChi/2 VB[mu] chibar[s, 1].Ga[mu, s, r].chi[r, 2]
+];
+
+(* Eq. (1): the overall 1/2 and quark baryon charge 1/3 give gB/6. *)
+LQuarkV := Block[{mu},
+  gB/6 VB[mu] (uqbar.Ga[mu].uq + dqbar.Ga[mu].dq)
+];
+
+LPseudoDiracB := LVB + LChi + LChiV + LQuarkV;
+L := LSM + LPseudoDiracB;

@@ -1,0 +1,11 @@
+{
+  "sample": "B13_loop",
+  "energy_TeV": 13.0,
+  "pt_gen_GeV": 200,
+  "sigma_fb": 135.1472356486896,
+  "integration_error_fb": 0.7336127387946665,
+  "events": 1000,
+  "max_lhe_alignment_error_GeV": 2.8162253784103086e-05,
+  "source": "/home/cms/phenomenology/monojet_loop_20261103/ggVg/Events/B_13TeV/unweighted_events.lhe.gz",
+  "root": "/home/cms/phenomenology/monojet_analysis_20261106/detector/B13_loop/events.root"
+}

@@ -1,0 +1,13 @@
+{
+  "selected_scale": 4.720559061999463,
+  "gt": 3.0734116610746134,
+  "mchi": 41.2001014143896,
+  "finite_mc_score_variance_by_component": {
+    "jet_tree_hard": 0.0004220909445309994,
+    "jet_tree": 0.002929555586391254,
+    "loop_hard": 0.010118310139538267,
+    "loop": 0.3620319222989215
+  },
+  "shape_score_variance": 0.375448414518676,
+  "integration_rate_score_variance": 5.346445070602212e-05
+}
