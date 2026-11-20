@@ -4695,7 +4695,7 @@
     "path": "../ttbar/data/grid_gN.npz",
     "bytes": 11290,
     "normalization": "none",
-    "sha256": "89eb330840d2e04fc6abd9d555ce9f9662cc9efd3777251afbc297f13d51e55f"
+    "sha256": "f963499418901305a4f4d36bdc1f013256aa0d36074bb8a0fbeaf743e1cb9103"
   },
   {
     "path": "../ttbar/data/kappa_lz_gN.csv",
