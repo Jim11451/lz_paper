@@ -1,0 +1,13 @@
+{
+ "withCR": {
+  "muhat": 0.36431,
+  "m95_obs": 0.51172,
+  "m95_exp": 0.16016
+ },
+ "noCR": {
+  "muhat": 0.38082,
+  "m95_obs": 0.53516,
+  "m95_exp": 0.16797
+ },
+ "_note": "19-channel (11 SR + 8 CR) and 11-SR-only profile-likelihood fits to HEPData ins2919645; kappa_SIGMA = 10%."
+}

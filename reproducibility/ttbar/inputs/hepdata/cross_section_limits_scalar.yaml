@@ -1,0 +1,319 @@
+dependent_variables:
+- header:
+    name: Observed 95\% CL upper limits on t/tt+DM production cross section
+      for all channels combined
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - value: 1.6224640607833862
+  - value: 0.5320922136306763
+  - value: 0.2643783688545227
+  - value: 0.1529625803232193
+  - value: 0.09606276452541351
+  - value: 0.07462813705205917
+  - value: 0.06285872310400009
+  - value: 0.05311087146401405
+  - value: 0.05176981911063194
+  - value: 0.05080951750278473
+- header:
+    name: Expected 95\% CL upper limits on t/tt+DM production cross section $\pm$
+      1 s.d. for all channels combined
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - asymerror:
+        minus: -0.25812023878097534
+        plus: 0.36379730701446533
+      label: 1 s.d.
+    value: 0.9036415815353394
+  - errors:
+    - asymerror:
+        minus: -0.08455365896224976
+        plus: 0.12000058794021606
+      label: 1 s.d.
+    value: 0.2947191298007965
+  - errors:
+    - asymerror:
+        minus: -0.03945891559123993
+        plus: 0.05646774172782898
+      label: 1 s.d.
+    value: 0.13753749430179596
+  - errors:
+    - asymerror:
+        minus: -0.022922564297914505
+        plus: 0.0326271653175354
+      label: 1 s.d.
+    value: 0.08024855703115463
+  - errors:
+    - asymerror:
+        minus: -0.015598095953464508
+        plus: 0.022201776504516602
+      label: 1 s.d.
+    value: 0.054606661200523376
+  - errors:
+    - asymerror:
+        minus: -0.012168334797024727
+        plus: 0.017489783465862274
+      label: 1 s.d.
+    value: 0.042599570006132126
+  - errors:
+    - asymerror:
+        minus: -0.01014205627143383
+        plus: 0.014699872583150864
+      label: 1 s.d.
+    value: 0.03580423444509506
+  - errors:
+    - asymerror:
+        minus: -0.008807893842458725
+        plus: 0.012766139581799507
+      label: 1 s.d.
+    value: 0.031094273552298546
+  - errors:
+    - asymerror:
+        minus: -0.008594376966357231
+        plus: 0.01245667040348053
+      label: 1 s.d.
+    value: 0.03034050017595291
+  - errors:
+    - asymerror:
+        minus: -0.008252626284956932
+        plus: 0.011961337178945541
+      label: 1 s.d.
+    value: 0.029134031385183334
+- header:
+    name: Expected 95\% CL upper limits on t/tt+DM production cross section $\pm$
+      2 s.d. for all channels combined
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - asymerror:
+        minus: -0.4235829876194
+        plus: 0.8090748786926269
+      label: 2 s.d.
+    value: 0.9036415815353394
+  - errors:
+    - asymerror:
+        minus: -0.13709834048748016
+        plus: 0.2655194103717804
+      label: 2 s.d.
+    value: 0.2947191298007965
+  - errors:
+    - asymerror:
+        minus: -0.06393343955278397
+        plus: 0.12391076982021332
+      label: 2 s.d.
+    value: 0.13753749430179596
+  - errors:
+    - asymerror:
+        minus: -0.037616513669490814
+        plus: 0.07207415252923965
+      label: 2 s.d.
+    value: 0.08024855703115463
+  - errors:
+    - asymerror:
+        minus: -0.025596873834729194
+        plus: 0.049044229090213776
+      label: 2 s.d.
+    value: 0.054606661200523376
+  - errors:
+    - asymerror:
+        minus: -0.0199685487896204
+        plus: 0.03837895765852928
+      label: 2 s.d.
+    value: 0.042599570006132126
+  - errors:
+    - asymerror:
+        minus: -0.016643375158309936
+        plus: 0.03225687891244888
+      label: 2 s.d.
+    value: 0.03580423444509506
+  - errors:
+    - asymerror:
+        minus: -0.014453979209065437
+        plus: 0.0280135627835989
+      label: 2 s.d.
+    value: 0.031094273552298546
+  - errors:
+    - asymerror:
+        minus: -0.014103591442108154
+        plus: 0.02733447030186653
+      label: 2 s.d.
+    value: 0.03034050017595291
+  - errors:
+    - asymerror:
+        minus: -0.013542772270739078
+        plus: 0.026247534900903702
+      label: 2 s.d.
+    value: 0.029134031385183334
+- header:
+    name: Expected 95\% CL upper limits on t/tt+DM production cross section 
+      for the all-hadronic channel only
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - value: 3.200213670730591
+  - value: 0.8546854853630066
+  - value: 0.336966872215271
+  - value: 0.18200702965259552
+  - value: 0.1206592544913292
+  - value: 0.08796734362840652
+  - value: 0.07054917514324188
+  - value: 0.05958651378750801
+  - value: 0.05656399950385094
+  - value: 0.053134310990571976
+- header:
+    name: Expected 95\% CL upper limits on t/tt+DM production cross section 
+      for the single-lepton channel only
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - value: 1.895443320274353
+  - value: 0.5146249532699585
+  - value: 0.22779648005962372
+  - value: 0.1220274418592453
+  - value: 0.07892927527427673
+  - value: 0.06336109340190887
+  - value: 0.054024141281843185
+  - value: 0.046055953949689865
+  - value: 0.04510800167918205
+  - value: 0.0429951548576355
+- header:
+    name: Expected 95\% CL upper limits on t/tt+DM production cross section 
+      for the dileptonic channel only
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - value: 1.1945700645446777
+  - value: 0.45341405272483826
+  - value: 0.24326945841312408
+  - value: 0.16628824174404144
+  - value: 0.13067445158958435
+  - value: 0.10426898300647736
+  - value: 0.08940465748310089
+  - value: 0.08768845349550247
+  - value: 0.08914200216531754
+  - value: 0.09343425184488297
+- header:
+    name: LO theory prediction for t/tt+DM production cross section
+    units: pb
+  qualifiers:
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - asymerror:
+        minus: -1.0270818471908569
+        plus: 1.0309665203094482
+      label: 1 s.d.
+    value: 3.9493000507354736
+  - errors:
+    - asymerror:
+        minus: -0.2543342709541321
+        plus: 0.25737160444259644
+      label: 1 s.d.
+    value: 1.0624099969863892
+  - errors:
+    - asymerror:
+        minus: -0.09017425775527954
+        plus: 0.09263589978218079
+      label: 1 s.d.
+    value: 0.4117699861526489
+  - errors:
+    - asymerror:
+        minus: -0.04211813956499004
+        plus: 0.043942131102085114
+      label: 1 s.d.
+    value: 0.2030400037765503
+  - errors:
+    - asymerror:
+        minus: -0.023648701608181
+        plus: 0.025010820478200912
+      label: 1 s.d.
+    value: 0.11648999899625778
+  - errors:
+    - asymerror:
+        minus: -0.014808124862611294
+        plus: 0.01578582264482975
+      label: 1 s.d.
+    value: 0.07395999878644943
+  - errors:
+    - asymerror:
+        minus: -0.010234018787741661
+        plus: 0.01091865450143814
+      label: 1 s.d.
+    value: 0.05022599920630455
+  - errors:
+    - asymerror:
+        minus: -0.006404620129615068
+        plus: 0.0068133254535496235
+      label: 1 s.d.
+    value: 0.03049599938094616
+  - errors:
+    - asymerror:
+        minus: -0.004179129842668772
+        plus: 0.004417466465383768
+      label: 1 s.d.
+    value: 0.019014999270439148
+  - errors:
+    - asymerror:
+        minus: -0.0029655764810740957
+        plus: 0.003115634201094508
+      label: 1 s.d.
+    value: 0.012848000042140484
+independent_variables:
+- header:
+    name: $m_{\phi}$ mass
+    units: GeV
+  values:
+  - value: 50.0
+  - value: 100.0
+  - value: 150.0
+  - value: 200.0
+  - value: 250.0
+  - value: 300.0
+  - value: 350.0
+  - value: 400.0
+  - value: 450.0
+  - value: 500.0

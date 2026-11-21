@@ -1,0 +1,212 @@
+[
+ {
+  "path": ".gitignore",
+  "bytes": 26,
+  "normalization": "lf",
+  "sha256": "6cf68f361ed9af9c89f8304b81604d87347c3d38348e90f1e5bef55ea8fa99a5"
+ },
+ {
+  "path": "README.md",
+  "bytes": 3693,
+  "normalization": "lf",
+  "sha256": "81be58319e6bc0585a6cae8bf67b9bb0b8513eb5723cc1f9c9325a967b3e332a"
+ },
+ {
+  "path": "requirements.txt",
+  "bytes": 49,
+  "normalization": "lf",
+  "sha256": "4b70aa64687884af65d7063acf35055cf1aeff61a43116c1ff40d89704f8e917"
+ },
+ {
+  "path": "inputs/channels.csv",
+  "bytes": 1441,
+  "normalization": "lf",
+  "sha256": "7ed7a7af6f2f97b14aed7a342286705b9f819d83cce9391eac02e8c7f0aaaa69"
+ },
+ {
+  "path": "inputs/grid_final.npz",
+  "bytes": 11290,
+  "normalization": "lf",
+  "sha256": "76dc737e217c20c8078926743a52302e1de29ca55de22e3be3afe763540ea7cf"
+ },
+ {
+  "path": "inputs/kappa_lz_gN.csv",
+  "bytes": 1448,
+  "normalization": "lf",
+  "sha256": "833a4cb0d932ef067a30e3f3ae92833bc298f2f9af702f4b181d14753560b69d"
+ },
+ {
+  "path": "inputs/lz_points.csv",
+  "bytes": 382,
+  "normalization": "lf",
+  "sha256": "e6c6d381b3742717925a8c52a6461cb7e333424104f0d0594ae0f5d55a1bd31d"
+ },
+ {
+  "path": "inputs/mm_gN.csv",
+  "bytes": 9371,
+  "normalization": "lf",
+  "sha256": "64213f0b4386ae5c39e5108bfa2a391f5e6d020a33b96c94989fdb5298a08975"
+ },
+ {
+  "path": "inputs/sigma_MV.csv",
+  "bytes": 946,
+  "normalization": "lf",
+  "sha256": "4bd2b63679a963114b6d0c19eefdf4e96b3ff33ba70e80ba83d53772c241e82e"
+ },
+ {
+  "path": "inputs/templates.json",
+  "bytes": 2075,
+  "normalization": "lf",
+  "sha256": "b68ae183fd87552c7c9bfc616f7f364ee15a5d09e88b89f94f8a9a7bf34f0f61"
+ },
+ {
+  "path": "inputs/hepdata/cross_section_limits_scalar.yaml",
+  "bytes": 8274,
+  "normalization": "lf",
+  "sha256": "e1be2786062078b052f34c9767da9cd30103d8a1892d1d82f428a862a776c3b3"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH0l0fSR.yaml",
+  "bytes": 24788,
+  "normalization": "lf",
+  "sha256": "e92732baefc8dcded786839447d9aa365adda2ade3dac609f94b64bdedb72191"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH0l1fSR.yaml",
+  "bytes": 24889,
+  "normalization": "lf",
+  "sha256": "b401df4fb0a1859639a55330b66ff229cf26b3ec11bdd5c514ccb5e7808853a0"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH0l2bSR.yaml",
+  "bytes": 24644,
+  "normalization": "lf",
+  "sha256": "fd7e2ff2c85f3a30f3225309714c5aa360c9243272e8358b51cee9cc4ea154fa"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH0lQR.yaml",
+  "bytes": 22835,
+  "normalization": "lf",
+  "sha256": "74e7209909abee000b72292b44c52f42650df0089a1146219aa7bbe38f84763b"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH1lTR.yaml",
+  "bytes": 20973,
+  "normalization": "lf",
+  "sha256": "4dbe12bd7611318790555fac04dfda5bef992d448bea23d25831a289f80a076f"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH1lWR.yaml",
+  "bytes": 20971,
+  "normalization": "lf",
+  "sha256": "2f47857ad524525c6311c91ce0e244c1284a8b8c286d29b164aba13f2d4d5f78"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_AH2lZR.yaml",
+  "bytes": 17210,
+  "normalization": "lf",
+  "sha256": "82506862b744d85e23ee433c2381fa7b54a3da1ddef1bdf073377e0fb6015e0d"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l0fT1SR.yaml",
+  "bytes": 9315,
+  "normalization": "lf",
+  "sha256": "6c165b1f1221c1a8a5b5e5a03ba3137b105a9be5eedb425c9e1bdb0b260a13ef"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l0fT2SR.yaml",
+  "bytes": 9079,
+  "normalization": "lf",
+  "sha256": "0b8c27e81b9778c03e4972f0e1c3c8d19edd47fbe87c13d4fb5ad9f6795f6ea0"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l1fT1SR.yaml",
+  "bytes": 8080,
+  "normalization": "lf",
+  "sha256": "9d6f2b0aa1e5229de8ecbff69849fbd3258f3e403e2def46c876ac96f4189c64"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l1fT2SR.yaml",
+  "bytes": 7676,
+  "normalization": "lf",
+  "sha256": "bcddf1c5f8441e8f84e12dfc94d1a6ceea714010d27217a1877776f08f4989bd"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l2bT1SR.yaml",
+  "bytes": 8088,
+  "normalization": "lf",
+  "sha256": "deee9c1b069e7ea2b6b650e0831984e2e8cc11930de13125564ec6296b69b45d"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1l2bT2SR.yaml",
+  "bytes": 7769,
+  "normalization": "lf",
+  "sha256": "25d39f46b1ced1f737914d05f88f6ff4d36abddf671063a814ef2da0e60b079e"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL1lWR.yaml",
+  "bytes": 9678,
+  "normalization": "lf",
+  "sha256": "63fc359d5ee94fc08db161e171868dee5bbceb648dc46da017220b41d5507d91"
+ },
+ {
+  "path": "inputs/hepdata/postfit_MET_distribution_SL2lTR.yaml",
+  "bytes": 8072,
+  "normalization": "lf",
+  "sha256": "5059a03dc4dcc058e3879d66f861aab7f37685c2307cae2377476346e17a0ae8"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NN_distribution_DL_DY_CR.yaml",
+  "bytes": 12641,
+  "normalization": "lf",
+  "sha256": "fdb54abbacecdc2c41f9a26ccea7a51aa71c0819928a075c294337ac2aabe3a3"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NN_distribution_DL_tDM_DF.yaml",
+  "bytes": 15783,
+  "normalization": "lf",
+  "sha256": "a95e4f0d9a64196298f4d5113c76d0e00faee7f962afa4cac53f7f031fdfd17a"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NN_distribution_DL_tDM_SF.yaml",
+  "bytes": 17342,
+  "normalization": "lf",
+  "sha256": "7d162e89ff2bbbfcab1e1db567c07535925170d7a92038ced6e7febb1d1204c3"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NN_distribution_DL_ttDM_DF.yaml",
+  "bytes": 14272,
+  "normalization": "lf",
+  "sha256": "4db8b11f5263e935c208e90fe1744402c14769d321950f2f5cb0ef9835ae856c"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NN_distribution_DL_ttDM_SF.yaml",
+  "bytes": 15877,
+  "normalization": "lf",
+  "sha256": "8a4f3205eac1666fd3e56e6be4dd7c50edeb085cfb557d85f262f5179b914d8b"
+ },
+ {
+  "path": "inputs/hepdata/postfit_NjetNbjet_distribution_DL_ttZ_CR.yaml",
+  "bytes": 9170,
+  "normalization": "lf",
+  "sha256": "3ebde57eeced1724d438cbaf4ac5e8abd3ea3b850f8d5571735f515a25348456"
+ },
+ {
+  "path": "code/build_workspace.py",
+  "bytes": 4753,
+  "normalization": "lf",
+  "sha256": "8392af1e2723c871ff08274ca5fdac170aefccb6d7ab64a7660be868ca6a29f8"
+ },
+ {
+  "path": "code/fit_cr.py",
+  "bytes": 4498,
+  "normalization": "lf",
+  "sha256": "6bb6eb198967aea5d236a1545082808950c6e84557f79176d12c540c16cb5734"
+ },
+ {
+  "path": "code/sys_likelihood.py",
+  "bytes": 5303,
+  "normalization": "lf",
+  "sha256": "cb2550879c5d255f85bb58bc1f03708dc7c2b7c73186d35cd51c6c1d767e7608"
+ }
+]
