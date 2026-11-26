@@ -51,8 +51,25 @@ for j, mv in enumerate(mvs):
                       np.log10([[m[i]]]), cmap=cmap, norm=norm, shading="flat",
                       rasterized=True, edgecolor="none", linewidth=0, antialiased=False)
 
+# Cells pinned at the numerical cap (mu95 = 64) are censored, not measured.
+# They are marked with an open symbol here, as in Fig. 3, because they set the
+# darkest part of the 20 GeV strip.
+CAP = 64.0
+for j, mv in enumerate(mvs):
+    data = sorted(cols[mv])
+    g = np.array([d[0] for d in data]); m = np.array([d[1] for d in data])
+    if len(g) < 2:
+        continue
+    lg = np.log(g)
+    be = np.concatenate([[lg[0]], 0.5 * (lg[1:] + lg[:-1]), [lg[-1]]])
+    yc = np.exp(0.5 * (be[1:] + be[:-1]))
+    sel = np.isclose(m, CAP)
+    if sel.any():
+        ax.plot(np.full(int(sel.sum()), 0.5 * (col_edges[j] + col_edges[j + 1])), yc[sel],
+                marker="o", ms=3.4, mfc="none", mec="white", mew=0.9, ls="none", zorder=6)
+
 # mu95 = 1 boundary: crossings computed per column, then joined across columns.
-# The 20 GeV pair is nominal only (mu95 = 0.85-0.89 with sigma_MC = 0.10-0.16);
+# The 20 GeV pair is nominal only (mu95 = 0.94-1.00 with sigma_MC = 0.10-0.16);
 # it is not drawn so that the figure does not present it as a resolved island.
 SUPPRESS = {20.0}
 xc = np.array([0.5 * (col_edges[j] + col_edges[j + 1]) for j in range(len(mvs))])
@@ -119,7 +136,9 @@ cb.ax.tick_params(labelsize=9)
 handles = [Patch(fc=cmap(norm(np.log10(0.1))), ec="none", label=r"excluded ($\mu_{95}<1$)"),
            Patch(fc=cmap(norm(np.log10(3.0))), ec="none", label=r"not excluded ($\mu_{95}>1$)"),
            Patch(fc="#ebebeb", ec="0.75", label="no admissible solution"),
-           plt.Line2D([], [], color="k", lw=1.5, label=r"$\mu_{95}=1$")]
+           plt.Line2D([], [], color="k", lw=1.5, label=r"$\mu_{95}=1$"),
+           plt.Line2D([], [], marker="o", ms=3.6, mfc="none", mec="0.35", mew=0.9,
+                      ls="none", label=r"pinned at cap ($\mu_{95}=64$)")]
 ax.legend(handles=handles, loc="lower right", framealpha=0.96, fontsize=8.5, handlelength=1.4)
 
 fig.tight_layout(pad=0.4)

@@ -68,3 +68,20 @@ Figures 2, 3 and 4 now sit on pp. 8, 9 and 10 respectively, each with the text t
 * Author list and affiliation still placeholders.
 * The κ systematic is now propagated at fixed $m_\chi$; a full joint re-solve of the relic
   equation for a shifted κ is not attempted and is not claimed.
+
+## V11.1 — figure censoring marks and cap value (2026-11-26)
+
+- Figure 2: cells pinned at the likelihood cap ($\mu_{95}=64$) are now marked with
+  open circles and a legend entry; previously they were coloured as ordinary data even
+  though they set the darkest part of the $M_V=20$ GeV strip.
+- Figure 2: width 0.93 -> 0.88 to keep the float on one page; caption shortened by
+  moving the censoring statement into a single clause.
+- Text: the cap is quoted as $\mu_{95}=64$ instead of $>60$ (Section 5.1, Table 2 row
+  and caption, Fig. 3 caption). The value is pinned exactly at 64 by the scan.
+- Comment fix in `make_fig2_v10.py`: the $M_V=20$ GeV nominal island is quoted as
+  $\mu_{95}=0.94$--$1.00$, not 0.85--0.89.
+- An interpolated $M_V=25$ GeV curve was added to Fig. 3 for inspection and then
+  removed after review: it contradicted the statement that no line is drawn across the
+  20--30 GeV interval, and its plateau was set by the cap rather than by data.
+- Cross-check: `column_stats.csv` in `review/fig23/` reproduces every column statistic
+  from `data/GRID_V10.csv`.

@@ -11,7 +11,7 @@ pdflatex main.tex
 pdflatex main.tex        # second pass for references
 ```
 
-17 pages, `PAPER_V11_FINAL.pdf` (md5 `b4225f8cf24facc139fe220b86c43c1b`).
+17 pages, `PAPER_V11_FINAL.pdf` (md5 `bbeca9f5b0c6178c25cd54c2318a1b02`).
 Figures are shipped as PDFs; they were produced from `data/GRID_V10.csv` by
 `make_figs_v10.py` / `make_fig2_v10.py` in the analysis workspace
 (`/home/yy/lz-event/phenomenology/V10_FINAL_MANUSCRIPT/code`), not included here.

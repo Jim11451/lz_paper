@@ -72,19 +72,7 @@ for mv in (20, 30, 40, 50, 100, 200):
     ax.plot(GT[sel][o], MU[sel][o], marker=marks[mv], ms=3.4, lw=1.2,
             color=palette[mv], label=r"$M_V=%d$ GeV" % mv)
 
-# 25 GeV: no dedicated solutions exist (the grid has 20 and 30 GeV columns only).
-# The curve is a log-log interpolation between those two columns, drawn dashed
-# and labelled as interpolated; it is not a computed result.
-sel20 = np.isclose(MV, 20); sel30 = np.isclose(MV, 30)
-g20, m20 = GT[sel20], MU[sel20]
-g30, m30 = GT[sel30], MU[sel30]
-o20, o30 = np.argsort(g20), np.argsort(g30)
-g20, m20, g30, m30 = g20[o20], m20[o20], g30[o30], m30[o30]
-# geometric mean in mu95 at fixed g_t = log-interpolation in M_V between the
-# two computed columns.
-interp = np.sqrt(m20 * m30)
-ax.plot(g20, interp, ls=(0, (4, 2)), lw=1.2, color="0.35",
-        label=r"$M_V=25$ GeV (interpolated)")
+
 ax.axhline(1.0, color="k", ls="--", lw=1.0, zorder=1)
 cap = np.isclose(MU, 64.0)
 ax.plot(GT[cap], MU[cap], "o", ms=7, mfc="none", mec="k", mew=0.9, zorder=5)
