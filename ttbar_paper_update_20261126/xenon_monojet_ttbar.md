@@ -191,7 +191,7 @@ The top-quark coupling also produces a dark pair in association with a top-quark
 
 We use the mass-weighted quark couplings and the same reference truth-level yield of 1.12044 events in the $5.4$–$269.9$ keV recoil window. The top-pair grid uses tree-level recoil matching with a Helm form factor [@engel1991], $f_2=0.5$, and $\Delta m=1$ MeV. The supplementary monojet prescription differs in its nuclear form factor and finite photon-mixing term (Appendix A). The two grids implement the same reference yield without defining an identical point-by-point parameter slice.
 
-The retained grid is shown in Fig. [the physical-grid projections](#fig:ttbar_grid). The invisible branching fractions range from $1.7\times10^{-5}$ to unity.
+The retained grid is shown in [the physical-grid projections](#fig:ttbar_grid). The invisible branching fractions range from $1.7\times10^{-5}$ to unity.
 
 <figure id="fig:ttbar_grid">
 <img src="./figures/fig1_v10.png" alt="Two projections of the top-pair physical grid" />
@@ -303,6 +303,8 @@ $$\begin{equation}
 The signal covariance contains finite-template counting correlations, integration errors, and a common 1.6% luminosity uncertainty, retaining correlations across years that share events. Yields are linearly interpolated in mass and independent covariances combined with squared weights. We profile nonnegative signal yields and positive Poisson means and solve asymptotic $CL_s=0.05$. Expected limits use a background Asimov data set, and observed limits use the measured counts with a conditional background Asimov construction. [@cmscovariance; @cmsyields; @cmssimplified; @cowan2011; @read2002]
 
 Reference templates give 208 expected and 151 observed sampled points with $\mu_{95}<1$; the lowest sampled mediator masses are 92 and 104 GeV. The smallest observed reference-template limit is 0.181 at $(M_V,g_t)=(200\,\mathrm{GeV},\sqrt{4\pi})$. The following three reference benchmarks remain below unity under the prescribed yield variations.
+
+<a id="tab:benchmarks"></a>
 
 | $M_V$ [GeV] | $g_t$ | Expected $\mu_{95}$ | Observed $\mu_{95}$ | Observed, $r=0.75$–$1.25$ |
 |---:|---:|---:|---:|---:|

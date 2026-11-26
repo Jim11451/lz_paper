@@ -1,0 +1,10 @@
+{
+  "before_total_words": 8814,
+  "after_total_words": 5379,
+  "before_monojet_methods_results_words": 1915,
+  "after_monojet_appendix_words": 1143,
+  "before_monojet_validation_words": 873,
+  "source_backup": "before_ttbar_main",
+  "primary_statistic": "381 of 470 retained on-shell points have median expected mu95 < 1",
+  "no_new_simulations": true
+}

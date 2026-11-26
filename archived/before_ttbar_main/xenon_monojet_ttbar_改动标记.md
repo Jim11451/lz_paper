@@ -1,7 +1,7 @@
 # Xenon recoils and CMS monojet and top-pair constraints on exothermic pseudo-Dirac dark matter
 
 > [!info] 改动标记说明
-> 黄色高亮及“新增／改写”旁注标出正文变化。新增的顶对正文整节标记；公式、表格和图片使用旁注。换行、交叉引用转换及章节顺延不计为科研新增。详见 [[变更说明_中文]]。
+> 黄色高亮及“新增／改写”旁注标出正文变化。新增的顶对正文整节标记；公式、表格和图片使用旁注。换行、交叉引用转换及章节顺延不计为科研新增。详见 [[archived/before_ttbar_main/变更说明_中文]]。
 
 > [!info] 改写 C01 标题
 > 标题新增 top-pair，将顶对通道纳入文章主题。
@@ -166,7 +166,7 @@ and S2 signals from 1710 events in its science sample
 
 <a id="fig:recoil"></a>
 
-![](./figures/01_xenon_recoil.png)
+![](archived/before_ttbar_main/figures/01_xenon_recoil.png)
 
 Truth-level differential recoil rates in events kg<span
 class="math inline"><sup>−1</sup></span> day<span
@@ -294,7 +294,7 @@ satisfy both conditions at the same $(M_V,g_t)$.
 
 <a id="fig:relic"></a>
 
-![](./figures/02_relic_slope.png)
+![](archived/before_ttbar_main/figures/02_relic_slope.png)
 
 The left panel fixes <span
 class="math inline"><em>m</em><sub><em>χ</em></sub> = 35</span> GeV. The
@@ -464,7 +464,7 @@ $pp\to j\chi_1\chi_2$ matrix element.
 
 <a id="fig:exclusion"></a>
 
-![](./figures/04_cms_central_plane.png)
+![](archived/before_ttbar_main/figures/04_cms_central_plane.png)
 
 Expected and observed CMS monojet 95% confidence-level
 limits on the unique branch satisfying the recoil-yield,
@@ -508,7 +508,7 @@ decrease enough to offset the increase in production.
 
 <a id="fig:uncertainties"></a>
 
-![](./figures/05_collider_uncertainties.png)
+![](archived/before_ttbar_main/figures/05_collider_uncertainties.png)
 
 Blue intervals show the <span
 class="math inline">±1<em>σ</em></span> and <span
@@ -794,7 +794,7 @@ shared parameters.
 
 <a id="fig:reference_recoil"></a>
 
-![](./figures/a01_original_recoil.png)
+![](archived/before_ttbar_main/figures/a01_original_recoil.png)
 
 Independent reproduction of the universal-vector reference
 benchmark, used to check the recoil shape and units.
@@ -812,7 +812,7 @@ $$
 
 <a id="fig:timelike"></a>
 
-![](./figures/a02_timelike_mixing.png)
+![](archived/before_ttbar_main/figures/a02_timelike_mixing.png)
 
 At four on-shell masses we include <span
 class="math inline"><em>δ</em><em>d</em><sub><em>c</em><em>b</em><em>t</em></sub>(<em>M</em><sub><em>V</em></sub><sup>2</sup>)</span>
@@ -836,7 +836,7 @@ benchmarks.
 
 <a id="fig:fraction"></a>
 
-![](./figures/a03_excited_fraction.png)
+![](archived/before_ttbar_main/figures/a03_excited_fraction.png)
 
 The conversion <span
 class="math inline"><em>χ</em><sub>2</sub><em>χ</em><sub>2</sub> ↔︎ <em>χ</em><sub>1</sub><em>χ</em><sub>1</sub></span>
@@ -863,7 +863,7 @@ those thermal histories.
 
 <a id="fig:mixing"></a>
 
-![](./figures/06_matching_and_spectra.png)
+![](archived/before_ttbar_main/figures/06_matching_and_spectra.png)
 
 The left panel shows how photon mixing changes the coupling
 required to match the yield. The right panel compares spectra with the
@@ -880,7 +880,7 @@ analysis.
 
 <a id="fig:rate"></a>
 
-![](./figures/07_lz_rate_variation.png)
+![](archived/before_ttbar_main/figures/07_lz_rate_variation.png)
 
 We solve for the central Planck abundance and compute the
 CMS limit for each on-shell point at each fixed target yield. The shaded
@@ -904,7 +904,7 @@ $gg\to gV$ at $M_V=87.18$ GeV and a partonic energy of 1 TeV.
 
 <a id="fig:loose"></a>
 
-![](./figures/b01_loose_cross_sections.png)
+![](archived/before_ttbar_main/figures/b01_loose_cross_sections.png)
 
 The jet selection is <span
 class="math inline"><em>p</em><sub><em>T</em></sub><sup><em>j</em></sup> &gt; 20</span>
@@ -915,7 +915,7 @@ threshold.
 
 <a id="fig:equal_rate_xsec"></a>
 
-![](./figures/b02_lz_slice_cross_sections.png)
+![](archived/before_ttbar_main/figures/b02_lz_slice_cross_sections.png)
 
 We fix <span
 class="math inline"><em>m</em><sub><em>χ</em></sub> = 35</span> GeV and
@@ -927,7 +927,7 @@ equal-rate condition alone.
 
 <a id="fig:mass_projection"></a>
 
-![](./figures/04b_central_mass_projection.png)
+![](archived/before_ttbar_main/figures/04b_central_mass_projection.png)
 
 Projection of the central relic grid onto <span
 class="math inline">(<em>m</em><sub><em>χ</em></sub>, <em>M</em><sub><em>V</em></sub>)</span>.
@@ -941,7 +941,7 @@ coupling solutions can overlap in the mass projection.
 
 <a id="fig:cms_official"></a>
 
-![](./figures/c01_cms_benchmark_limits.png)
+![](archived/before_ttbar_main/figures/c01_cms_benchmark_limits.png)
 
 Comparison of limits obtained using official CMS signal
 templates. For scalar and pseudoscalar benchmarks between 50 and 800
@@ -954,14 +954,14 @@ class="citation" data-cites="cmsmonojet cmssignal"></span>
 
 <a id="fig:cms_750"></a>
 
-![](./figures/c02_cms_vector_750.png)
+![](archived/before_ttbar_main/figures/c02_cms_vector_750.png)
 
 Cutflow and MET spectrum for the 750 GeV CMS vector
 benchmark.
 
 <a id="fig:cms_100"></a>
 
-![](./figures/c03_cms_vector_100.png)
+![](archived/before_ttbar_main/figures/c03_cms_vector_100.png)
 
 Cutflow and MET spectrum for the 100 GeV CMS vector
 benchmark. Comparison of independent LO event generation and fast
@@ -977,14 +977,14 @@ data-cites="cmscutflow"></span>
 
 <a id="fig:cms_2000"></a>
 
-![](./figures/c04_cms_vector_2000.png)
+![](archived/before_ttbar_main/figures/c04_cms_vector_2000.png)
 
 Cutflow and MET spectrum for the 2000 GeV CMS vector
 benchmark.
 
 <a id="fig:small_sample"></a>
 
-![](./figures/c05_loop_mc_validation.png)
+![](archived/before_ttbar_main/figures/c05_loop_mc_validation.png)
 
 Of the 3,600 events in the original loop sample, 17 pass the
 reconstructed selection and fall in MET bins above 470 GeV. At the same
@@ -1029,7 +1029,7 @@ Comparison of independent signal templates for the three sensitive benchmarks. T
 
 <a id="fig:independent_samples"></a>
 
-![](./figures/c06_three_template_replicas.png)
+![](archived/before_ttbar_main/figures/c06_three_template_replicas.png)
 
 The top panels show the CMS 95% CL limits. The dashed lines
 mark the reference observed limits from Table [[tab:benchmarks]](#tab:benchmarks). The lower panels
@@ -1077,7 +1077,7 @@ stable, so $p_T^{\rm miss}=p_T(V)$.
 
 <a id="fig:hard_met"></a>
 
-![](./figures/03_hard_met_cross_sections.png)
+![](archived/before_ttbar_main/figures/03_hard_met_cross_sections.png)
 
 Truth-level cross sections in pb and their ratio for <span
 class="math inline"><em>m</em><sub><em>χ</em></sub> = 35</span> GeV and
@@ -1120,7 +1120,7 @@ background constraints. [kahlhoefer2016](#ref-kahlhoefer2016) · [cmstop](#ref-c
 
 <a id="fig:single_top_cut"></a>
 
-![](./figures/08_top_branches_and_energy.png)
+![](archived/before_ttbar_main/figures/08_top_branches_and_energy.png)
 
 The left panel shows <span
 class="math inline"><em>M</em><sub><em>V</em></sub> − <em>m</em><sub>1</sub> − <em>m</em><sub>2</sub></span>

@@ -7,7 +7,7 @@
 - [图表与数据来源](archived/FIGURE_SOURCES.md)
 - [组员的顶夸克伴随产生报告复核](archived/ttbar_report_review_zh.md)
 - [PRD LaTeX / Overleaf 稿件](archived/prd_overleaf/README.md) · [对应中文稿](phenomenology_prd_zh.md)
-- 加入顶对结果的新稿（2026-11-26） [改动标记版](ttbar_paper_update_20261126/xenon_monojet_ttbar_改动标记.md) · [中文变更说明](ttbar_paper_update_20261126/变更说明_中文.md) · [英文原稿](ttbar_paper_update_20261126/xenon_monojet_ttbar.md)
+- 顶对主结果稿（2026-11-26） [英文阅读版](ttbar_paper_update_20261126/xenon_monojet_ttbar_阅读版.md) · [结构标记版](ttbar_paper_update_20261126/xenon_monojet_ttbar_改动标记.md) · [中文结构说明](ttbar_paper_update_20261126/结构调整说明_中文.md) · [Markdown 源稿](ttbar_paper_update_20261126/xenon_monojet_ttbar.md)
 
 中英文稿共用 `figures/` 中的图片和 `data/` 中的扫描结果与验证数据。修改正文时编辑 Markdown 源稿，换图时同步更新两版 PDF 和图表来源。
 

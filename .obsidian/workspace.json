@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archived/FIGURE_SOURCES.md",
+                "file": "ttbar_paper_update_20261126/xenon_monojet_ttbar_阅读版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FIGURE_SOURCES"
+              "title": "xenon_monojet_ttbar_阅读版"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245
+    "width": 271.5
   },
   "right": {
     "id": "5afa752072bbe00c",
@@ -202,37 +202,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15bc69edd5ce5e3b",
+  "active": "5625348f17fe4c50",
   "lastOpenFiles": [
+    "ttbar_paper_update_20261126/xenon_monojet_ttbar_改动标记.md",
+    "ttbar_paper_update_20261126/xenon_monojet_ttbar_阅读版.md",
+    "ttbar_paper_update_20261126/xenon_monojet_ttbar.md",
+    "ttbar_paper_update_20261126/结构调整说明_中文.md",
+    "ttbar_paper_update_20261126/变更说明_中文.md",
+    "archived/before_ttbar_main/xenon_monojet_ttbar_改动标记.md",
+    "archived/before_ttbar_main/xenon_monojet_ttbar.md",
+    "archived/before_ttbar_main/变更说明_中文.md",
+    "archived/FIGURE_SOURCES.md",
+    "archived/before_ttbar_main/figures/c06_three_template_replicas.png",
+    "archived/before_ttbar_main/figures/c05_loop_mc_validation.png",
+    "archived/before_ttbar_main/figures/c04_cms_vector_2000.png",
+    "archived/before_ttbar_main/figures/c03_cms_vector_100.png",
+    "archived/before_ttbar_main/figures/c02_cms_vector_750.png",
+    "archived/before_ttbar_main/figures/c01_cms_benchmark_limits.png",
+    "archived/before_ttbar_main/figures/b02_lz_slice_cross_sections.png",
+    "archived/before_ttbar_main/figures/b01_loose_cross_sections.png",
+    "archived/before_ttbar_main/figures/a03_excited_fraction.png",
+    "archived/before_ttbar_main/figures/a02_timelike_mixing.png",
+    "archived/before_ttbar_main/figures",
+    "ttbar_paper_update_20261126/restructure_audit.json",
+    "archived/ttbar/data/sigma_MV.csv",
+    "archived/ttbar/data/channels.csv",
+    "archived/ttbar/PHASE13_14_REPORT.md",
     "archived/prd_overleaf/README.md",
     "archived/phenomenology_prd_zh.md",
-    "ttbar_paper_update_20261126/before_ttbar_main/comparison_manifest.json",
-    "ttbar_paper_update_20261126/before_ttbar_main/变更说明_中文.md",
-    "ttbar_paper_update_20261126/before_ttbar_main/xenon_monojet_ttbar_改动标记.md",
-    "ttbar_paper_update_20261126/before_ttbar_main/xenon_monojet_ttbar.md",
-    "ttbar_paper_update_20261126/before_ttbar_main",
+    "archived/before_ttbar_main/comparison_manifest.json",
+    "archived/before_ttbar_main",
     "ttbar/restructure_ttbar_main_20261126.py",
     "ttbar",
     "archived/submission_drafts.md",
-    "ttbar_paper_update_20261126/xenon_monojet_ttbar_改动标记.md",
     "archived",
-    "ttbar_paper_update_20261126/变更说明_中文.md",
     "ttbar_paper_update_20261126/comparison_manifest.json",
-    "ttbar_paper_update_20261126/figures/fig4_v10.png",
-    "ttbar_paper_update_20261126/figures/fig3_v10.png",
-    "ttbar_paper_update_20261126/figures/fig2_v10.png",
-    "ttbar_paper_update_20261126/figures/fig1_v10.png",
-    "ttbar_paper_update_20261126/figures/d02_top_truth_met.png",
-    "ttbar_paper_update_20261126/figures/d01_light_top_branches.png",
-    "ttbar_paper_update_20261126/figures/c06_three_template_replicas.png",
-    "ttbar_paper_update_20261126/figures/c05_loop_mc_validation.png",
-    "ttbar_paper_update_20261126/figures/c04_cms_vector_2000.png",
-    "ttbar_paper_update_20261126/figures/c03_cms_vector_100.png",
-    "ttbar_paper_update_20261126/xenon_monojet_ttbar.md",
-    "archived/ttbar/ttbar_en.pdf",
-    "ttbar_paper_update_20261126/comparison_basis/references.bib",
-    "ttbar_paper_update_20261126/comparison_basis/main.tex",
-    "ttbar_paper_update_20261126/comparison_basis/appendices.tex",
     "archived/ttbar/ttbar_en.md",
     "archived/ttbar_report_review_zh.md",
     "archived/ttbar/MERGE_REVIEW_20261120_zh.md",
@@ -245,10 +249,6 @@
     "build/reproducibility/workspace/outputs/pseudoDirac_yukawaLZ_xsec_20261020/REPORT.md",
     "build/reproducibility/workspace/outputs/pseudoDirac_LZfit_20261021/REPORT.md",
     "build/reproducibility/workspace/outputs/pseudoDirac_flavorEFT_20261020/model/PseudoDiracFlavorEFT_UFO/FLAVOR_EFT_NOTES.md",
-    "build/reproducibility/workspace/outputs/pseudoDirac_flavorEFT_20261020/model/PseudoDiracFlavorEFT_UFO/AUDIT_NOTES.md",
-    "build/reproducibility/workspace/outputs/pseudoDirac_flavorEFT_20261020/FIRST_PASS_REPORT.md",
-    "build/reproducibility/workspace/outputs/pseudoDiracB_20261004/REPRODUCTION_REPORT.md",
-    "build/reproducibility/workspace/outputs/phenomenology_paper_20261110/ttbar_report_review_zh.md",
-    "build/reproducibility/workspace/outputs/phenomenology_paper_20261110/phenomenology_zh.md"
+    "build/reproducibility/workspace/outputs/pseudoDirac_flavorEFT_20261020/model/PseudoDiracFlavorEFT_UFO/AUDIT_NOTES.md"
   ]
 }
