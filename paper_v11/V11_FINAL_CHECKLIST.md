@@ -1,6 +1,6 @@
 # V11 checklist
 
-`PAPER_V11_FINAL.pdf` — 17 pages — md5 `420117e1c6c756455af59e37f8e7ed64`.
+`PAPER_V11_FINAL.pdf` — 17 pages — md5 `b4225f8cf24facc139fe220b86c43c1b`.
 Sources `paper/`, figures `figures/`, data `data/GRID_V10.csv` (470 rows, 381 excluded).
 
 ## Page-by-page (PDF inspected, not the sources)
