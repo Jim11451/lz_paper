@@ -1,0 +1,84 @@
+{
+  "dark_vertex_magnitude": "gChi/2 in both archived UFO and CalcHEP",
+  "physical_nucleon_cross_section": "mu_N^2 * gChi^2 * f_N^2 / (4*pi*MV^4)",
+  "recoil_kernel": "m_A * gChi^2 * Q_A^2 / (8*pi*v^2*MV^4)",
+  "original_universal_mapping": "gVq=gB/6 implies f_p=f_n=gB/2",
+  "original_cross_section": "mu_N^2 * gChi^2 * gB^2 / (16*pi*MV^4)",
+  "Xe131_isospin_amplitude_ratio": 1.1614797416324136,
+  "predicted_kappa_correction_factor": 2.3229594832648273,
+  "numerical_scope": "Dirac-matrix spin traces using the already declared transition vertex; no event generator run.",
+  "checks": [
+    {
+      "mchi_GeV": 21.0,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.0000008414524915
+    },
+    {
+      "mchi_GeV": 21.0,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 1.0005271683981367
+    },
+    {
+      "mchi_GeV": 21.0,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.000000757152483
+    },
+    {
+      "mchi_GeV": 21.0,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 0.9999847221273176
+    },
+    {
+      "mchi_GeV": 36.1,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.0000008577121517
+    },
+    {
+      "mchi_GeV": 36.1,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 1.000536985667826
+    },
+    {
+      "mchi_GeV": 36.1,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.0000007062423837
+    },
+    {
+      "mchi_GeV": 36.1,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 0.9999938339305336
+    },
+    {
+      "mchi_GeV": 47.8,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.000000863526388
+    },
+    {
+      "mchi_GeV": 47.8,
+      "target_GeV": 0.939,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 1.0005403276523293
+    },
+    {
+      "mchi_GeV": 47.8,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.0,
+      "spin_trace_over_NR_recoil_kernel": 1.0000006801786867
+    },
+    {
+      "mchi_GeV": 47.8,
+      "target_GeV": 122.02572741702,
+      "delta_GeV": 0.001,
+      "spin_trace_over_NR_recoil_kernel": 0.99999687833398
+    }
+  ]
+}

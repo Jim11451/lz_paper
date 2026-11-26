@@ -1,0 +1,235 @@
+{
+  "source": "C:\\Users\\69472\\Desktop\\xenon_monojet_ttbar_markdown",
+  "baseline": "Local prd_overleaf/main.tex + appendices.tex + references.bib, snapshotted in comparison_basis",
+  "source_sha256": "49921a48cf06256b6cdc31b8672ae83642640aa6ef869b65498962deca46c38b",
+  "changes": [
+    {
+      "id": "A01",
+      "kind": "新增",
+      "source_excerpt": "We also estimate the expected sensitivity of the CMS all-hadronic top-pair category on a separate on-shell grid. The monojet and top-pair analyses probe different production mechanisms and use differe"
+    },
+    {
+      "id": "A02.01",
+      "kind": "新增",
+      "source_excerpt": "# CMS top-pair production with missing transverse momentum {#sec:ttbar_recast}"
+    },
+    {
+      "id": "A02.02",
+      "kind": "新增",
+      "source_excerpt": "The top-quark coupling also produces a dark pair in association with a top-quark pair. We estimate the expected sensitivity of the CMS all-hadronic $0\\ell2b$ category at $\\sqrt{s}=13$ TeV with $138~\\m"
+    },
+    {
+      "id": "A02.03",
+      "kind": "新增",
+      "source_excerpt": "## Recoil normalization and physical grid"
+    },
+    {
+      "id": "A02.04",
+      "kind": "新增",
+      "source_excerpt": "We use the mass-weighted quark couplings and the same reference truth-level yield of 1.12044 events in the $5.4$–$269.9$ keV recoil window. The top-pair grid uses tree-level recoil matching with a Hel"
+    },
+    {
+      "id": "A02.05",
+      "kind": "新增",
+      "source_excerpt": "At fixed $(M_V,g_t)$, the recoil integral fixes $\\kappa(m_\\chi)=g_tg_\\chi/M_V^2$, and the central Planck abundance fixes $m_\\chi$ on the on-shell branch. The root search covers $8~\\mathrm{GeV}\\le m_\\c"
+    },
+    {
+      "id": "A02.06",
+      "kind": "新增",
+      "source_excerpt": "<figure id=\"fig:ttbar_grid\">\n<img src=\"./figures/fig1_v10.png\" alt=\"Two projections of the top-pair physical grid\" />\n<figcaption>On-shell top-pair grid after the recoil-yield, central-abundance, and "
+    },
+    {
+      "id": "A02.07",
+      "kind": "新增",
+      "source_excerpt": "## Signal generation and expected likelihood"
+    },
+    {
+      "id": "A02.08",
+      "kind": "新增",
+      "source_excerpt": "We generate the $pp\\to t\\bar t\\chi_1\\chi_2$ signal at leading order with MadGraph5_aMC@NLO, decay both top quarks hadronically, shower the events with Pythia 8, and apply a CMS-like Delphes detector s"
+    },
+    {
+      "id": "A02.09",
+      "kind": "新增",
+      "source_excerpt": "We veto electrons and muons with $p_T>10$ GeV and $|\\eta|<2.4$ and require at least three jets with $p_T>30$ GeV and $|\\eta|<2.4$, including at least two $b$ tags. We require $p_T^{\\rm miss}>250$ GeV,"
+    },
+    {
+      "id": "A02.10",
+      "kind": "新增",
+      "source_excerpt": "We use the 15 bins of the published post-fit $p_T^{\\rm miss}$ projection, with 20 GeV bins from 250 to 530 GeV and an overflow bin. CMS extracts its signal using neural-network score bins and combines"
+    },
+    {
+      "id": "A02.11",
+      "kind": "新增",
+      "source_excerpt": "$$\n-2\\ln L(\\mu,\\theta)=2\\sum_{i=1}^{15}\n\\left[\\nu_i-n_i\\ln\\nu_i\\right]+\\left(\\frac{\\theta}{w}\\right)^2,\n\\qquad \\nu_i=b_i(1+\\theta)+\\mu s_i.\n$$"
+    },
+    {
+      "id": "A02.12",
+      "kind": "新增",
+      "source_excerpt": "Here $s_i$ is the signal yield in bin $i$. We profile $\\theta$ and solve $\\mathrm{CL}_s=0.05$ for the median expected upper limit $\\mu_{95}$. The post-fit inputs and the approximate background covaria"
+    },
+    {
+      "id": "A02.13",
+      "kind": "新增",
+      "source_excerpt": "## Expected limits and their stability"
+    },
+    {
+      "id": "A02.14",
+      "kind": "新增",
+      "source_excerpt": "The median expected limit falls below unity at 381 of the 470 sampled points, including all sampled points with $M_V\\ge100$ GeV. Between 50 and 90 GeV the lower boundary lies near $g_t=0.17$. At 30 an"
+    },
+    {
+      "id": "A02.15",
+      "kind": "新增",
+      "source_excerpt": "| $M_V$ [GeV] | Sampled points | Expected $\\mu_{95}<1$ | Expected $\\mu_{95}$ range |\n|---:|---:|---:|---:|\n| 20 | 44 | 1 | 0.938 to $>60$ |\n| 30 | 44 | 34 | 0.099–2.93 |\n| 40 | 44 | 36 | 0.105–3.21 |\n"
+    },
+    {
+      "id": "A02.16",
+      "kind": "新增",
+      "source_excerpt": "<figure id=\"fig:ttbar_map\">\n<img src=\"./figures/fig2_v10.png\" alt=\"Expected top-pair limit on the mediator mass and top-coupling grid\" />\n<figcaption>Median expected 95% CL signal-strength limits from"
+    },
+    {
+      "id": "A02.17",
+      "kind": "新增",
+      "source_excerpt": "At low coupling, the production rate falls and the expected limit weakens. At large coupling, the quark width can reduce the invisible branching fraction enough to reverse this trend. The selected yie"
+    },
+    {
+      "id": "A02.18",
+      "kind": "新增",
+      "source_excerpt": "<figure id=\"fig:ttbar_curves\">\n<img src=\"./figures/fig3_v10.png\" alt=\"Expected top-pair limits versus top coupling\" />\n<figcaption>Median expected upper limits as a function of the top-quark coupling "
+    },
+    {
+      "id": "A02.19",
+      "kind": "新增",
+      "source_excerpt": "<figure id=\"fig:ttbar_visible\">\n<img src=\"./figures/fig4_v10.png\" alt=\"Visible cross section and invisible branching fraction versus top coupling\" />\n<figcaption>Generated hadronic signal cross sectio"
+    },
+    {
+      "id": "A02.20",
+      "kind": "新增",
+      "source_excerpt": "We propagate template statistics at all 132 sampled points with $M_V=20$–40 GeV. Requiring $\\mu_{95}+2\\sigma_{\\rm MC}<1$ changes the counts at 20, 30, and 40 GeV from 1, 34, and 36 to 0, 32, and 32. T"
+    },
+    {
+      "id": "A02.21",
+      "kind": "新增",
+      "source_excerpt": "We solve the relic equation again at $\\Omega_\\chi h^2=0.1176$ and 0.1224. All 470 central points remain admissible at both edges. Rescaling the signal by the change in invisible branching fraction shi"
+    },
+    {
+      "id": "A03",
+      "kind": "新增",
+      "source_excerpt": "The all-hadronic top-pair recast provides a complementary estimate of expected sensitivity. The median expected upper limit falls below unity at 381 of 470 sampled on-shell points, including all sampl"
+    },
+    {
+      "id": "C03",
+      "kind": "改写",
+      "source_excerpt": "The experimental inputs are available through the LUX-ZEPLIN and CMS\npublic data releases\n[@lzdata; @cmscovariance; @cmsyields; @cmssignal; @cmscutflow]. The\nmodel files, analysis code, public-input s"
+    }
+  ],
+  "figures": [
+    {
+      "file": "01_xenon_recoil.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "02_relic_slope.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "03_hard_met_cross_sections.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "04b_central_mass_projection.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "04_cms_central_plane.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "05_collider_uncertainties.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "06_matching_and_spectra.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "07_lz_rate_variation.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "08_top_branches_and_energy.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "a01_original_recoil.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "a02_timelike_mixing.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "a03_excited_fraction.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "b01_loose_cross_sections.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "b02_lz_slice_cross_sections.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c01_cms_benchmark_limits.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c02_cms_vector_750.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c03_cms_vector_100.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c04_cms_vector_2000.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c05_loop_mc_validation.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "c06_three_template_replicas.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "d01_light_top_branches.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "d02_top_truth_met.png",
+      "status": "unchanged"
+    },
+    {
+      "file": "fig1_v10.png",
+      "status": "new"
+    },
+    {
+      "file": "fig2_v10.png",
+      "status": "new"
+    },
+    {
+      "file": "fig3_v10.png",
+      "status": "new"
+    },
+    {
+      "file": "fig4_v10.png",
+      "status": "new"
+    }
+  ],
+  "readable_image_links_checked": 26,
+  "note": "Scientific statements are imported as supplied; this is a document comparison, not a fresh numerical validation."
+}

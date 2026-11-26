@@ -1,6 +1,6 @@
 # 图与数据来源 · Figure and data provenance
 
-[中文初稿](phenomenology_zh.md) · [English draft](phenomenology_en.md)
+[中文初稿](archived/phenomenology_zh.md) · [English draft](archived/phenomenology_en.md)
 
 中英文稿使用同一组图、参考文献和参数。`figures` 内含论文中引用的图，`data` 内含中心丰度网格、代表点、截面及数值验证。两版正文均用标准 Markdown 图链接和 `$` 数学标记。
 

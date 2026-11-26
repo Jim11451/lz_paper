@@ -339,7 +339,7 @@ For $m_\chi\ge20$ GeV and $M_V\le40.001$ GeV, dark-pair production proceeds thro
 
 ## Data and reproducibility
 
-[Root-by-root grid limits](data/center_grid_limits.csv) · [Grid summary](data/center_grid_summary.json) · [Benchmark roots at all targets](data/benchmark_roots.csv) · [Benchmark uncertainty summary](data/branch_uncertainties.csv) · [Figure and data provenance](FIGURE_SOURCES.md)
+[Root-by-root grid limits](data/center_grid_limits.csv) · [Grid summary](data/center_grid_summary.json) · [Benchmark roots at all targets](data/benchmark_roots.csv) · [Benchmark uncertainty summary](data/branch_uncertainties.csv) · [Figure and data provenance](archived/FIGURE_SOURCES.md)
 
 ## References
 

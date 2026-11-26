@@ -1,0 +1,11 @@
+{
+  "inspected_commit": "b5637c9a7749c04c9bbe661088f96b6941099a54",
+  "previous_commit": "619020c",
+  "scope": "Archived-grid and normalization-table checks only; no new MC or CLs fits.",
+  "interpolation": "Paper: log-linear; collaborator: linear; five comparison masses.",
+  "reference_truth_ROI_yield": 1.120444105,
+  "grid_shape": [
+    44,
+    14
+  ]
+}

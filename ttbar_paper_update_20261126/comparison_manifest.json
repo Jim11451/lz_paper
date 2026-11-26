@@ -1,0 +1,8 @@
+{
+  "current_version": "ttbar-primary revision, 2026-11-26",
+  "compared_with": "before_ttbar_main/xenon_monojet_ttbar.md",
+  "current_sha256": "60f1d193de29a73804df2fa7488581cabe503ca3109903b272658400ded32896",
+  "before_sha256": "49921a48cf06256b6cdc31b8672ae83642640aa6ef869b65498962deca46c38b",
+  "previous_import_manifest": "before_ttbar_main/comparison_manifest.json",
+  "scope": "Manuscript restructuring only; all numerical results imported from supplied manuscript."
+}
