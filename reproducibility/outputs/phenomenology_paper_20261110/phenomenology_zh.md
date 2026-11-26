@@ -298,7 +298,7 @@ $$
 
 ## 数据与复现
 
-[主网格逐根上限](data/center_grid_limits.csv) · [网格统计](data/center_grid_summary.json) · [代表点逐目标结果](data/benchmark_roots.csv) · [代表点误差汇总](data/branch_uncertainties.csv) · [图与数据来源](FIGURE_SOURCES.md)
+[主网格逐根上限](data/center_grid_limits.csv) · [网格统计](data/center_grid_summary.json) · [代表点逐目标结果](data/benchmark_roots.csv) · [代表点误差汇总](data/branch_uncertainties.csv) · [图与数据来源](archived/FIGURE_SOURCES.md)
 
 ## 参考文献
 

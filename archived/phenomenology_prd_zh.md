@@ -250,7 +250,7 @@ $$
 
 实验输入来自 LUX-ZEPLIN 和 CMS 的公开数据。逐根扫描结果、基准点信号产额与图表来源见随稿仓库。 [7](https://doi.org/10.17182/hepdata.182472.v1) · [18](https://doi.org/10.17182/hepdata.106115.v2/t14) · [19](https://doi.org/10.17182/hepdata.106115.v2/t15) · [25](https://doi.org/10.17182/hepdata.106115.v2/t1) · [26](https://doi.org/10.17182/hepdata.106115.v2/t20)
 
-[主网格逐根上限](data/center_grid_limits.csv) · [网格统计](data/center_grid_summary.json) · [代表点逐目标结果](data/benchmark_roots.csv) · [代表点误差汇总](data/branch_uncertainties.csv) · [图与数据来源](FIGURE_SOURCES.md)
+[主网格逐根上限](data/center_grid_limits.csv) · [网格统计](data/center_grid_summary.json) · [代表点逐目标结果](data/benchmark_roots.csv) · [代表点误差汇总](data/branch_uncertainties.csv) · [图与数据来源](archived/FIGURE_SOURCES.md)
 
 ## 附录 A. 氙反冲与匹配检查
 
