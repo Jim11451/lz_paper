@@ -1,0 +1,839 @@
+dependent_variables:
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $Z/\gamma* \rightarrow l \bar{l}$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 20.85249141612037
+    value: 473.42889404296875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 17.753585553490808
+    value: 332.26373291015625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 14.718526572388175
+    value: 234.65805053710938
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 12.217710523410517
+    value: 161.2216796875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 10.661107148490375
+    value: 120.74313354492188
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.744831775516879
+    value: 84.77597045898438
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 7.867153489600116
+    value: 65.05575561523438
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.618255302598716
+    value: 47.1822509765625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.661410429200299
+    value: 34.52423858642578
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.845714125014529
+    value: 25.36677360534668
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.113625850800036
+    value: 19.06070899963379
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.550220715891904
+    value: 14.740442276000977
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.857975256583026
+    value: 13.675155639648438
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.8702126157636854
+    value: 9.058371543884277
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.690931123704983
+    value: 36.120208740234375
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $W+Jets$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 134.12633327081434
+    value: 19481.501953125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 116.59004705196183
+    value: 14536.673828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 100.63472966357901
+    value: 10890.884765625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 87.48618394524925
+    value: 8258.2119140625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 73.84076448848205
+    value: 6118.5048828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 65.71780202649833
+    value: 4761.3720703125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 58.651434814490194
+    value: 3760.79833984375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 53.85425136750768
+    value: 3054.554931640625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 47.9428970921794
+    value: 2412.09716796875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 41.71416637653223
+    value: 1885.421875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 38.451645734744396
+    value: 1555.3583984375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 33.96221386985203
+    value: 1224.54150390625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 31.300777269226497
+    value: 1020.135986328125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 26.227466579980963
+    value: 761.8043823242188
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 58.99981292389828
+    value: 3938.34130859375
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $Single Top$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 24.27771055003878
+    value: 632.5289306640625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 20.268907819448742
+    value: 459.3087158203125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 17.888671227530907
+    value: 345.3194274902344
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 15.470353260528215
+    value: 255.62326049804688
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 12.67509942413628
+    value: 176.0518798828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 11.749874497888465
+    value: 143.98458862304688
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 9.96874459993836
+    value: 110.30028533935547
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.157856520325954
+    value: 80.54356384277344
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 9.051775145673123
+    value: 81.40343475341797
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 7.234657717686067
+    value: 56.211456298828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.900370368530542
+    value: 39.10585021972656
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.347805948580721
+    value: 42.41473388671875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.72851430166077
+    value: 26.116992950439453
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.871633440709818
+    value: 26.56945037841797
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 11.727024297442826
+    value: 151.43032836914062
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $VV$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 33.07945679984264
+    value: 1188.7977294921875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 30.117933809559815
+    value: 904.5396118164062
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 27.016922411518102
+    value: 729.962158203125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 23.197828757584947
+    value: 569.21142578125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 20.997239924625934
+    value: 446.4388732910156
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 17.382512266798674
+    value: 327.91229248046875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 14.731958967628472
+    value: 251.78070068359375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 13.889488163936075
+    value: 187.312255859375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 13.243921642354577
+    value: 178.58010864257812
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 13.327257010911413
+    value: 162.17532348632812
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 7.875018282647654
+    value: 81.59161376953125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 9.552035891932068
+    value: 88.00074768066406
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.106376644823635
+    value: 71.2283706665039
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 9.638700094498093
+    value: 84.77061462402344
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 18.566268168929778
+    value: 355.9015808105469
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $QCD multijet$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 14.86817334247032
+    value: 233.53839111328125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 11.825730168281327
+    value: 124.51338195800781
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.321269480096701
+    value: 76.15536499023438
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.055280717468065
+    value: 54.733158111572266
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.443330801084901
+    value: 24.12299346923828
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.8502225267917005
+    value: 24.562807083129883
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.9037856432233617
+    value: 13.21988296508789
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.879673566356632
+    value: 19.564987182617188
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.9964873577966995
+    value: 11.1522798538208
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.074100132271921
+    value: 11.270530700683594
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.920750920534233
+    value: 5.908370494842529
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.9667118638440328
+    value: 3.379167318344116
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.384684941833723
+    value: 1.908268928527832
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.438505428514278
+    value: 4.094089031219482
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.684512886120108
+    value: 13.869291305541992
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $t\bar{t} (1l)$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 46.673241235114645
+    value: 3099.346435546875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 37.5838565022314
+    value: 2045.443115234375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 29.998098426912907
+    value: 1341.6484375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 23.248003073884377
+    value: 869.46923828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 21.57004485681513
+    value: 676.3731079101562
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 16.894011270370463
+    value: 445.65728759765625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 13.60163630513979
+    value: 301.4107360839844
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 12.09258877276687
+    value: 228.41415405273438
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.432784258338643
+    value: 138.78201293945312
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.926996263909626
+    value: 90.53005981445312
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.761027685186033
+    value: 54.44249725341797
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.840347686895906
+    value: 25.441570281982422
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.25405893856355
+    value: 45.312007904052734
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.982486556442993
+    value: 31.2440128326416
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.2972122164661166
+    value: 35.095645904541016
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $t\bar{t} (2l)$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 17.56921576388005
+    value: 391.84588623046875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 14.665331095470883
+    value: 280.2443542480469
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 12.40911156091491
+    value: 199.38638305664062
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 10.571148475605057
+    value: 141.30706787109375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.735319563660175
+    value: 100.9820556640625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 7.480153910066199
+    value: 77.30421447753906
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.719326259601242
+    value: 57.37168884277344
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.1599643878923125
+    value: 49.78392028808594
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.008177687646808
+    value: 33.404144287109375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.322456465108946
+    value: 25.021480560302734
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.4995240319015073
+    value: 17.159912109375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.3558753726102397
+    value: 15.091763496398926
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.0052196125297352
+    value: 12.562007904052734
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.5681611253346817
+    value: 13.534965515136719
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.331851195553569
+    value: 40.19501876831055
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $t\bar{t}V$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.49256912579191
+    value: 25.14218521118164
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.874632944515909
+    value: 19.737789154052734
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.7104571647073863
+    value: 15.913244247436523
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.7936708771383088
+    value: 10.289703369140625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.845254985777673
+    value: 9.34347915649414
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.993012661912517
+    value: 5.583412170410156
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.0408535926831
+    value: 5.485743522644043
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.7515355809511297
+    value: 4.370458126068115
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.626653345245764
+    value: 3.3973445892333984
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.6614950501747965
+    value: 2.869467258453369
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.3532956533845746
+    value: 1.7545385360717773
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.257471359703193
+    value: 1.6842622756958008
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 0.8970305868762555
+    value: 0.9527270793914795
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.2533494269774503
+    value: 1.3022782802581787
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 1.9409289552950855
+    value: 4.857884883880615
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $Other$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 9.807617226580867
+    value: 104.98823547363281
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 8.305720552936677
+    value: 76.95112609863281
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 7.281868215911419
+    value: 58.97450256347656
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 6.032012259058059
+    value: 43.03684997558594
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 5.689618797310477
+    value: 32.94705581665039
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.741040808593048
+    value: 24.84634780883789
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.424485454679758
+    value: 21.58188247680664
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.612042879833241
+    value: 16.05641746520996
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 3.941274433158249
+    value: 15.649896621704102
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.6778050793180945
+    value: 8.856329917907715
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.9203720011106156
+    value: 10.18480110168457
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.576043388264121
+    value: 6.960409641265869
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.4935854315880452
+    value: 6.219435214996338
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 2.333821971377034
+    value: 5.771844863891602
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 4.783891377188718
+    value: 26.602264404296875
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $Background$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 823.146569013871
+    value: 25632.140625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 658.1239044620332
+    value: 18780.248046875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 499.0210723994223
+    value: 13893.3837890625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 424.56414066404824
+    value: 10363.7890625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 297.4618115782551
+    value: 7705.912109375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 29694.11806045092
+    value: 5897.1513671875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 226.23203056506412
+    value: 4587.048828125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 202.5966282040654
+    value: 3687.817138671875
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 165.27186474954271
+    value: 2909.198974609375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 136.55939578390496
+    value: 2267.80517578125
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 103.15862316149777
+    value: 1784.5667724609375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 85.75581044034352
+    value: 1422.286865234375
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 103.89693332326196
+    value: 1198.18603515625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 66.26336179638548
+    value: 938.2174072265625
+  - errors:
+    - label: Stat + syst (1 s.d.)
+      symerror: 337.2719530179892
+    value: 4602.50048828125
+- header:
+    name: Number of events
+    units: Events/bin
+  qualifiers:
+  - name: Process
+    value: $Data$
+  - name: $L_{int}$
+    units: $\mathrm{fb}^{-1}$
+    value: '138'
+  - name: $\sqrt{s}$
+    units: TeV
+    value: '13'
+  values:
+  - errors:
+    - label: Poisson errors
+      symerror: 160.0781059358212
+    value: 25625.0
+  - errors:
+    - label: Poisson errors
+      symerror: 137.11309200802089
+    value: 18800.0
+  - errors:
+    - label: Poisson errors
+      symerror: 117.90250209389112
+    value: 13901.0
+  - errors:
+    - label: Poisson errors
+      symerror: 101.73986436004326
+    value: 10351.0
+  - errors:
+    - label: Poisson errors
+      symerror: 87.87491109526086
+    value: 7722.0
+  - errors:
+    - label: Poisson errors
+      symerror: 76.90253571892151
+    value: 5914.0
+  - errors:
+    - label: Poisson errors
+      symerror: 67.74953874381728
+    value: 4590.0
+  - errors:
+    - label: Poisson errors
+      symerror: 60.753600716336145
+    value: 3691.0
+  - errors:
+    - label: Poisson errors
+      symerror: 53.99073994677235
+    value: 2915.0
+  - errors:
+    - label: Poisson errors
+      symerror: 47.69696007084728
+    value: 2275.0
+  - errors:
+    - label: Poisson errors
+      symerror: 42.2965719651132
+    value: 1789.0
+  - errors:
+    - label: Poisson errors
+      symerror: 37.77565353504821
+    value: 1427.0
+  - errors:
+    - label: Poisson errors
+      symerror: 34.597687784012386
+    value: 1197.0
+  - errors:
+    - label: Poisson errors
+      symerror: 30.692018506445613
+    value: 942.0
+  - errors:
+    - label: Poisson errors
+      symerror: 67.87488489861327
+    value: 4607.0
+independent_variables:
+- header:
+    name: $p^{miss}_{T}$
+    units: GeV
+  values:
+  - high: 270
+    low: 250
+  - high: 290
+    low: 270
+  - high: 310
+    low: 290
+  - high: 330
+    low: 310
+  - high: 350
+    low: 330
+  - high: 370
+    low: 350
+  - high: 390
+    low: 370
+  - high: 410
+    low: 390
+  - high: 430
+    low: 410
+  - high: 450
+    low: 430
+  - high: 470
+    low: 450
+  - high: 490
+    low: 470
+  - high: 510
+    low: 490
+  - high: 530
+    low: 510
+  - high: 550
+    low: 530

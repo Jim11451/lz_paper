@@ -1,0 +1,40 @@
+\section{Systematic uncertainties and limitations}\label{sec:sys}
+
+\subsection{Uncertainties on the expected limit}
+
+Table~\ref{tab:syst} collects the shifts of $\mu_{95}$ obtained by varying one ingredient at a time. The largest effect is the renormalisation and factorisation scale. Nine combinations of $\mu_R$ and $\mu_F$ around the central choice change the cross section by $-21\%$ to $+39\%$, and the limit by $-29\%$ to $+28\%$, which is about one grid step in $g_t$ and moves six points across the boundary in each direction. The scale band is the dominant theory uncertainty and is larger than every other entry in the table.
+
+The remaining entries are an order of magnitude smaller and are collected in Table~\ref{tab:syst}. Of these, the detector efficiency and the xenon normalisation are the only entries that can move a point across the boundary. The efficiency enters the yield linearly, so a $10\%$ variation moves the limit by $9.1\%$. The xenon normalisation enters only through the invisible branching ratio: a $10\%$ change in $\kappa$ changes $g_\chi$ by $10\%$, hence ${\rm BR_{inv}}$ by $0.2\%$ where ${\rm BR_{inv}}\simeq1$ and by up to $21\%$ where ${\rm BR_{inv}}\ll1$. Eleven points lie close enough to the boundary for such a shift to change their classification — three each at 20, 30 and 40~GeV and two at 50~GeV, all with ${\rm BR_{inv}}\le0.68$ — while the points nearest unity outside those columns have ${\rm BR_{inv}}\simeq1$ and move by less than $0.1\%$. The Monte Carlo statistics of the templates and the mediator width contribute at the few-percent level or below for the original grid, where each column carries between $10^2$ and $10^4$ selected events. For the new low-mass columns the selected yields fall to a few hundred events, and the statistical uncertainty of the limit itself becomes the dominant effect near the boundary: resampling the 15-bin template with Poisson fluctuations 150 times and recomputing the limit gives a spread of $0.10$--$0.16$ in $\mu_{95}$ at $M_V=20$~GeV, compared with $0.03$ at $M_V=100$~GeV. At these yields a positive fluctuation of the fitted signal strength inflates $p_b$ in the CLs ratio, which biases the resampled limits low; we do not correct for it and rely on the $2\sigma$ margin instead. We therefore classify a point as excluded only when $\mu_{95}+2\sigma_{\rm MC}<1$: this leaves 32 of 44 points at $M_V=30$~GeV and 32 of 44 at 40~GeV, removes the single nominal exclusion at $20$~GeV, and leaves five to eight points per column straddling the boundary. Two points, 346 and 565, show a run-to-run scatter of $0.87\%$ and $0.76\%$ in three independent integrations, larger than their nominal integration uncertainty; the tabulated values are retained and the effect on the limit is below one percent.
+
+The parton-distribution uncertainty was estimated at three representative points by reweighting to a next-to-leading-order set with 101 members. The central value moves down by $11$--$13\%$ and the replica spread is $9$--$10\%$. The two numbers are different quantities and are not added: the first is a change of central prediction, the second an uncertainty. Neither was propagated point by point across the grid, and the PDF band is therefore quoted as an estimate rather than as a per-point error.
+
+\begin{table}[htbp]
+\centering
+\caption{Shift of the expected limit when one ingredient is varied. The scale entry is the envelope of nine renormalisation and factorisation scale combinations evaluated at three points and applied to the whole grid; the PDF entries are evaluated at the same three points and not propagated. The $\kappa$ entry is propagated through $g_\chi\to{\rm BR_{inv}}\to$ signal at fixed $m_\chi$, not as a flat rescaling of the signal.}
+\label{tab:syst}
+\begin{tabular}{lcc}
+\toprule
+Source & Variation & $\Delta\mu_{95}/\mu_{95}$ \\
+\midrule
+Monte Carlo statistics & --- & $6.5\%$ \\
+Detector efficiency & $\pm10\%$ & $9.1\%$ \\
+Xenon normalisation $\kappa$ & $\pm10\%$ & $\le0.2\%$ (${\rm BR_{inv}}\simeq1$) to $21\%$ (${\rm BR_{inv}}\ll1$) \\
+Mediator width and $\mathrm{BR}_{\rm inv}$ & $\pm1\%$ & $1.0\%$ \\
+Renormalisation and factorisation scale & $+39\%/-21\%$ & $-29\%/+28\%$ \\
+Parton distributions (central shift) & $-11$ to $-13\%$ & not propagated \\
+Parton distributions (replica spread) & $9$--$10\%$ & not propagated \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Limitations}
+
+The analysis is an approximate, expected-only recast: no observed exclusion map is presented, and every limit quoted here is an expected one. Several of its ingredients differ from the CMS analysis in ways that matter for the interpretation of the boundary.
+
+The selection is applied to a single signal region, the all-hadronic $0\ell2b$ category, while the CMS result combines three lepton categories. The binning is fifteen equal-width bins in $p_T^{\rm miss}$, while CMS extracts the signal with neural-network score bins. The likelihood has one coherent background nuisance and no control region; the CMS model has many parameters constrained by sidebands. These choices make the limit an estimate rather than a reproduction of the published result.
+
+The detector simulation is parameterised. The $b$ tag is a binary Delphes tagging with an efficiency of about $67\%$ at $30$--$100$~GeV, compared with about $75\%$ for the CMS DeepCSV working point, and a light-flavour mistag rate of $1.3\%$ against about $1\%$. The $b$ jet entering the transverse-mass cut is the highest-$p_T$ tagged jet, whereas CMS uses the jet with the largest DeepCSV discriminator; replacing our choice by a truth-flavour priority changes the decision for $215$ of $7727$ events ($2.8\%$) and the selected yield by $151$ of $7453$ ($2.0\%$), an effect smaller than the scale band but not negligible. There is no pileup simulation, the jet radius is $0.5$ rather than $0.4$, and lepton identification and isolation are approximate.
+
+The grid is a candidate set, not an enumeration: it contains the on-shell branch only (Section~\ref{sec:lz}), so off-shell solutions are neither studied nor excluded. The scan covers $M_V=20$--200~GeV. Below 20~GeV the parameter space is not covered by the present scan: the recoil integral is defined down to $m_\chi=8$~GeV, but no grid was generated there, so no statement is made about $M_V<20$~GeV.
+
+Finally, the released package contains the frozen templates, the published post-fit distribution, the likelihood code and the archived generator cards, but not the event samples; it reproduces the limits rather than the generation.

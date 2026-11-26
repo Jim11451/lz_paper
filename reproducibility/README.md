@@ -87,6 +87,21 @@ The complete original shower/reconstruction workflow is in `outputs/monojet_anal
 
 Public monojet background/yield inputs are from [CMS EXO-20-004](https://arxiv.org/abs/2107.13021), [HEPData v2](https://doi.org/10.17182/hepdata.106115.v2). Covariance and yield tables are 14 and 15. The input archive and parsed numerical tables are distributed with this package. The ttbar supplementary framework uses [CMS EXO-22-014](https://arxiv.org/abs/2505.05300). Background post-fit reuse, cutflow differences, finite signal statistics, mass-dependent template limitations and the broken-phase model scope are documented in the manuscript and supplementary audits.
 
+## ttbar v2 (corrected kappa)
+
+`ttbar_v2/` supersedes the kappa used in `ttbar/`. The LZ normalisation targets
+`N_ROI = 1.12044`; the 36-node table closes at the 0.1 % level against the
+reference values, and the exclusion grid scans 44 values of `g_t` with
+`g_chi = kappa(m_chi) M_V^2 / g_t` per point (verified to 2e-16).
+
+```bash
+python3 ttbar_v2/run.py --check     # sha256 of the packaged files
+python3 ttbar_v2/run.py --widths    # re-derive the width table (max |dGamma/Gamma| = 3.4e-6)
+```
+
+The grid's 616 points (244 valid) and the distinction between the single-region
+grid likelihood and the 19-channel fit are recorded in `ttbar_v2/docs/`.
+
 ## Validation scope and provenance
 
 `manifest.json` records SHA-256 and byte counts for the archived inputs. `VALIDATION.json` records this release's actual checks. The public CI reruns integrity checks and the three monojet benchmark fits. Fresh micrOMEGAs/MadGraph/Delphes builds are external-software jobs and are tracked separately from the offline fit checks.

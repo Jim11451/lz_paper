@@ -1,0 +1,15 @@
+MV,mchi,nevents,xsec_pb,xsec_err,lhe
+20.0,8.5279,2000,0.2806739,0.002058562,unweighted_events.lhe.gz
+30.0,12.0344,2000,1.07943,0.006718029,unweighted_events.lhe.gz
+40.0,16.0549,2000,2.139871,0.01413442,unweighted_events.lhe.gz
+50.0,20.238,2000,2.794431,0.02133301,unweighted_events.lhe.gz
+60.0,24.0978,2000,3.113982,0.01983466,unweighted_events.lhe.gz
+70.0,27.3391,2000,3.174449,0.02019941,unweighted_events.lhe.gz
+80.0,29.6722,2000,3.075766,0.02308666,unweighted_events.lhe.gz
+90.0,31.4181,2000,2.873972,0.01749481,unweighted_events.lhe.gz
+100.0,32.8203,2000,2.510005,0.01477926,unweighted_events.lhe.gz
+120.0,34.7316,2000,1.929924,0.01031875,unweighted_events.lhe.gz
+140.0,35.9972,2000,1.527837,0.008392806,unweighted_events.lhe.gz
+160.0,36.8609,2000,1.210196,0.006489226,unweighted_events.lhe.gz
+180.0,37.4494,2000,0.9896869,0.005206101,unweighted_events.lhe.gz
+200.0,37.8637,2000,0.7980339,0.004131056,unweighted_events.lhe.gz

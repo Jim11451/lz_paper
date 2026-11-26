@@ -1,0 +1,53 @@
+\section{Theoretical framework}\label{sec:model}
+
+We consider a pseudo-Dirac pair of Majorana states $\chi_1$ and $\chi_2$ with masses $m_1=m_\chi$ and $m_2=m_\chi+\Delta m$, where $\Delta m=1$~MeV is small enough that both states are present in the thermal bath at freeze-out and large enough that the splitting is irrelevant for the recoil kinematics except through the exothermic threshold. A spin-one mediator $V_\mu$ couples to the off-diagonal dark current and to a flavour-dependent quark current. In the electroweak-broken effective description the interaction is
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_{\rm int}={}&V_\mu\sum_{q=u,d,s,c,b,t} g_t\,\frac{\widehat m_q}{172\ \mathrm{GeV}}\,\bar q\gamma^\mu q
+\;+\;i\,\frac{g_\chi}{2}\,V_\mu\,\bar\chi_1\gamma^\mu\chi_2,\\
+&\widehat m_q=(0.0022,\,0.0047,\,0.093,\,1.27,\,4.18,\,172)\ \mathrm{GeV},
+\end{aligned}
+\label{eq:lag}
+\end{equation}
+\noindent The masses in the normalisation are the $\overline{\rm MS}$ masses at $2$~GeV for $u,d,s$ and at their own scale for $c$ and $b$, and the pole mass for the top \cite{PDG}; $172$~GeV plays the role of the reference scale. A different scheme for the light quarks changes the relative couplings at the few-percent level and does not affect any conclusion below.
+
+The normalisation is chosen so that $g_t$ is the coefficient of the $Vt\bar t$ vertex and every other quark coupling is fixed by the mass ratio $g_{Vq}=g_t\,\widehat m_q/172$~GeV. The couplings to light quarks are therefore mass-suppressed, relative to the top coupling, by the same ratio that makes the top coupling the largest, which is what allows the xenon and collider probes to sample different flavour combinations. A gauge-complete completion would have to specify the charges, the origin of the fermion masses and the matching conditions; we work in the effective description and treat $g_t$ as the free parameter that controls the size of the quark couplings.
+
+The dark current is off-diagonal. Annihilation proceeds through $\chi_1\chi_2\to V^*\to q\bar q$ and through the co-annihilation channels of the two states, and the mediator decays invisibly through $V\to\chi_1\chi_2$ once the channel is open. It is convenient to trade the two dark parameters $(m_\chi,g_\chi)$ for the combination
+\begin{equation}
+\kappa\equiv\frac{g_\chi\,g_t}{M_V^2},
+\qquad
+g_\chi=\frac{\kappa M_V^2}{g_t},
+\label{eq:kappa}
+\end{equation}
+because $\kappa$ is the combination that the xenon recoil rate fixes: the rate scales as $g_\chi^2g_t^2/M_V^4=\kappa^2$, so at fixed $\kappa$ it no longer depends on $g_\chi$, $g_t$ and $M_V$ separately. The relic abundance, in contrast, depends on $m_\chi$ and $g_\chi$ separately. The two conditions therefore act on different combinations of the parameters, and it is their intersection that defines the physical grid.
+
+The mediator width receives a dark and a quark contribution,
+\begin{equation}
+\Gamma_V=\Gamma_{\chi\chi}+\sum_q\Gamma_{q\bar q},
+\qquad
+\mathrm{BR}_{\rm inv}=\frac{\Gamma_{\chi\chi}}{\Gamma_V},
+\label{eq:width}
+\end{equation}
+with the dark partial width growing as $g_\chi^2M_V$ and the quark width as $g_t^2M_V$ times the mass-suppressed sum over open channels. Two requirements keep the narrow-width treatment meaningful: $\Gamma_V/M_V<3\%$ and $M_V-m_1-m_2\ge5\Gamma_V$. The first limits how large the couplings may become before the resonance description breaks down, and the second keeps the dark pair sufficiently far below the mediator pole. Both are imposed on every point of the grid and are reported separately from the relic-density condition, because a point may fail either of them for reasons that have nothing to do with the abundance.
+
+Table~\ref{tab:bench} collects the fixed quantities used throughout.
+\begin{table}[htbp]
+\centering
+\caption{Fixed quantities of the model and of the scan. The dark mass and coupling are not fixed: they follow from the two conditions of Section~\ref{sec:lz} at every grid point.}
+\label{tab:bench}
+\begin{tabular}{ll}
+\toprule
+Quantity & Value \\
+\midrule
+Mass splitting & $\Delta m=1$~MeV \\
+Local dark density & $\rho_\chi=0.3\ \mathrm{GeV\,cm^{-3}}$ \\
+Halo speeds $(v_0,v_E,v_{\rm esc})$ & $(238,\,254,\,544)\ \mathrm{km\,s^{-1}}$ \\
+Dark coupling range & $0<g_\chi\le\sqrt{4\pi}$ (perturbativity) \\
+Dark mass range & $m_\chi\ge8$~GeV (lower boundary of the mass scan) \\
+Mediator masses & $M_V=20$--$200$~GeV, fourteen columns \\
+Top coupling & $0.10\le g_t\le\sqrt{4\pi}$ \\
+Narrow-width and off-pole cuts & $\Gamma_V/M_V<3\%$, $M_V-m_1-m_2\ge5\Gamma_V$ \\
+\bottomrule
+\end{tabular}
+\end{table}
