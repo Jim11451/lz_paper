@@ -1,0 +1,32 @@
+\section{The CMS $t\bar t$+MET analysis}\label{sec:cms}
+
+\subsection{Signal generation and event selection}
+
+Signal events are generated at leading order with \textsc{MadGraph5\_aMC@NLO}~\cite{MG5} in the effective model of Eq.~\eqref{eq:lag}, showered with \textsc{Pythia}~8~\cite{PYTHIA} and passed through \textsc{Delphes}~\cite{DELPHES} with a CMS-like detector card. For each point we generate between $8\times10^3$ and $2\times10^4$ events, the larger samples being reserved for points with a sizeable invisible branching ratio, for a total of about $8.3\times10^6$ events. The cross section is computed separately at every point, $0.0022\le\sigma\le10.93$~pb with an integration uncertainty of $0.20$--$0.38\%$; no $g_t^2$ rescaling is used anywhere in the analysis. The cross section already contains the invisible branching ratio of the mediator, so the signal yield is
+\begin{equation}
+N_{\rm SR}=\mathcal{L}\,\varepsilon_{\rm SR}\,\sigma_{\rm vis},
+\qquad
+\mathcal{L}=138\ \mathrm{fb}^{-1}=1.38\times10^{5}\ \mathrm{pb}^{-1},
+\label{eq:nsr}
+\end{equation}
+\noindent so that with $\sigma_{\rm vis}$ in pb the yield is $1.38\times10^{5}\,\varepsilon_{\rm SR}\,\sigma_{\rm vis}$. Here $\sigma_{\rm vis}\equiv\sigma_{\rm MG5}$ is the leading-order cross section of the generated process, $pp\to t\bar t\,\chi_1\chi_2\to(bjj)(\bar bjj)\,\chi_1\chi_2$, with both tops decaying hadronically; the width entering the $V$ propagator is the total width, so the factor $\Gamma_{\rm inv}/\Gamma_{\rm tot}$ is already contained in the cross section.
+The efficiency $\varepsilon_{\rm SR}$ is that of the seven selection requirements of Table~\ref{tab:sel} (Appendix~\ref{app:sel}). The efficiencies range from $0.66\%$ to $6.59\%$ across the grid. Table~\ref{tab:eff} lists them column by column together with the fraction of events that pass the $p_T^{\rm miss}>250$~GeV requirement, which rises from 1.2\% at 20~GeV to 8.4\% at 200~GeV. The two quantities rise together across the fourteen columns.
+
+
+
+The selected events are binned in $p_T^{\rm miss}$ in the fifteen bins of the published post-fit distribution for the all-hadronic $0\ell2b$ signal region: 20~GeV wide from 250 to 530~GeV, with the last bin collecting the overflow above 530~GeV. We adopt those fifteen $p_T^{\rm miss}$ edges unchanged. They are the binning of the published post-fit distribution, not the binning in which CMS performs its fit: CMS extracts the signal with neural-network score bins, and the $p_T^{\rm miss}$ histogram is the projection we use.
+
+\subsection{Signal yields}
+
+The yields span more than two orders of magnitude. At $M_V=50$~GeV and $g_t=0.15$ the efficiency is about $1.8\%$ and the cross section about $0.12$~pb, giving $N_{\rm SR}\approx290$; at $M_V=140$~GeV and $g_t=0.94$ the cross section is $1.30$~pb and the efficiency $4.5\%$, giving $N_{\rm SR}\approx8\times10^3$. The two examples differ in both $M_V$ and $g_t$, so they show the range of yields across the scan rather than the dependence on either variable alone. Column by column, the median efficiency grows with the mediator mass, from $0.87\%$ at 20~GeV to $6.2\%$ at 200~GeV (Table~\ref{tab:eff}), and the cross sections of the heavier columns are larger as well, so both ingredients grow with $M_V$ over this range, and the yields quoted below are the generated ones.
+
+\subsection{Statistical interpretation}
+
+The expected limit is obtained from a binned Poisson likelihood with a single background nuisance parameter that shifts all bins coherently,
+\begin{equation}
+-2\ln L(\mu,\theta)=\sum_{i=1}^{15}2\left[b_i(1+\theta)+\mu s_i-n_i\ln\!\big(b_i(1+\theta)+\mu s_i\big)\right]+\left(\frac{\theta}{w}\right)^2,
+\label{eq:lik}
+\end{equation}
+where $b_i$ are the CMS post-fit background yields, $s_i$ the signal template of the point under study, $n_i$ the Asimov data $n_i=b_i$, and $w=3.198\%$ the quadrature sum of the background uncertainties divided by the total background. The nuisance parameter is profiled numerically at each $\mu$: a one-dimensional grid in $\theta$ is scanned and the minimum refined by a parabola, and the 95\% CL limit $\mu_{95}$ is then defined by $\mathrm{CL}_s=0.05$ with the asymptotic formulae of Refs.~\cite{CLS,CCGV}. We model the background with a single coherent normalisation nuisance parameter across the fifteen $p_T^{\rm miss}$ bins. A point is called excluded when $\mu_{95}<1$. The grid spans $[-3w,3w]$; an independent minimisation that includes every point with $0.85<\mu_{95}<1.15$ agrees with the tabulated limits to better than $0.2\%$.
+
+The background and data inputs are the published post-fit distributions of the CMS analysis. Fig.~\ref{fig:cmsinput} reproduces them; they are the experimental input to the likelihood. The total background is $9642.0$ events and the observed count is $10224$ in the fifteen bins. We use the observed distribution only to display the input; all limits quoted in this paper are expected limits.
